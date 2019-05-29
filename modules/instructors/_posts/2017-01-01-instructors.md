@@ -5,46 +5,7 @@ permalink: /:title/
 
 # Instructors
 
-<!--
-
-## Instructor
-
-**[Stephanie Whitney](mailto:stephanie1.whitney@umconnect.umt.edu)**
-
-Stephanie will be your primary point of contact this semester for this course.
-
-- Office: Media Arts MFA Suite or 127 Computer Lab in McGill
-- Email: [stephanie1.whitney@umconnect.umt.edu](mailto:stephanie1.whitney@umconnect.umt.edu?cc=michael.musick@umontana.edu&subject=120%20Question)
-
 #### Lab Hours
-
-Stephanie holds regular lab hours, in McGill 127. Please make this your first stop for help if you are in Missoula.
--->
-<!-- - Thursday: 1:30pm - 5:00pm -->
-<!-- To Be Announced-->
-
-
-<!--## Lab Assistants-->
-
-<!--We also have two amazing Lab Assistants for this course this semester. They will be assisting with answering your questions and serve as another resource to help you problem solve. They will also be assisting Stephanie with grading your weekly assignments.
-TBA
--->
-
-<!--
-- Quinn Bruderer
-    - Email: [quintin.bruderer@umconnect.umt.edu](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question)
-- Emily Griffin
-    - Email: [emily1.griffin@umconnect.umt.edu](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question)
-
-When possible, you should visit them in the lab, during their lab hours. If that is not possible, please [email them](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question).
--->
-<!--#### Lab Assistant Lab Hours-->
-
-<!-- - Tuesdays: 1:30pm - 3:00pm -->
-<!--- To Be Announced-->
-
-<!-- - Mondays: 12:30pm - 2:00pm -->
-
 
 ## Maintained by: [Michael Cassens](https://michaelcassens.github.io/teaching)
 
@@ -63,5 +24,5 @@ Michael Cassens maintains this course. Please contact Michael for problems that 
 
 For those of you in Missoula, you are welcome to come by for help during my office hours. This is another way for getting in touch with me and getting my help.
 
-- Mondays:    1:00pm - 2:00pm
-- Tuesdays and Thursdays: 12:00pm - 2:00pm
+- Mondays: 1:00pm - 2:00pm
+- Tuesdays: 10:00am - 11:00am

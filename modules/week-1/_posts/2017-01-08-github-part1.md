@@ -33,7 +33,7 @@ To watch the course repo;
 
 ## Create a new “Issue”
 
-To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/120_CreativeCoding_Spring2019/issues).
+To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/creative-coding-1-Fall2019/issuess).
 
 There you can search open issues to try and;
 
