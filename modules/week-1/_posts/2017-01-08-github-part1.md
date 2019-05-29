@@ -3,7 +3,9 @@ title: GitHub Part 1
 module: 1
 ---
 
-<!-- Consider moving to week 2. Instead, replace with Moodle forum info. -->
+# Create your own GitHub repository
+
+# Get a clone on your local Machine
 
 # _Issues Forum_ and Notifications from GitHub.com
 
@@ -46,6 +48,8 @@ If no issue matches your problem, you can open a "New Issue". This allows you to
 NOTE: You should not repeat a comment that has already been added by anyone from your class. However, if you would like to further a comment already there, “@mention” the classmate/user and continue their discussion.
 
 As the semester goes on you will be expected to open issues here when you are having problems. You will also be graded on your involvement in the course issue board and your responses provided to fellow classmates throughout the semester.
+
+[Homework 1 on Moodle](https://moodle.umt.edu/mod/assign/view.php?id=1314517)
 
 <!-- maybe another video here too
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NNBQ2Oe4orY" frameborder="0" allowfullscreen></iframe></div>

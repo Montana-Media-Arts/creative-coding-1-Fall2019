@@ -9,6 +9,47 @@ As a creative technologist and developer you will need to take control of your c
 
 This means you need to be comfortable with your computer and *know* your computer.
 
+# INSERT VIDEO
+
+There are two different ways to find things on your computer.
+1. Through the graphical user interface
+2. Through the command-line interface
+
+We are going to go through the graphical user interface and I will discuss the command line interface.  If you are interested in exploring the command-line, I will produce give you more information, but it will not be the focus.
+
+# INSERT VIDEO
+
+## GUI Directories
+
+We need to define what a directory is and what a file is.  
+1. What is a directory?
+   1. A directory is a folder.  It's just a fancy word for folder.  Remember, we are mimicing the physical desk.  That's why we have a desktop, folders and files.  It's so we can relate to them.
+   2. Files are what we are actually storing.  Maybe they are pictures, videos, text documents, music, and more.  
+
+Why do we care? 
+
+We care because we want to organize our folders/directories and the files within them so that they we can find them again. Yes, we have a search bar that helps us, but it's much better if we get into the habit of storing our files in an organized way.
+
+# INSERT VIDEO
+How do we access our folders?
+1. In Windows, you can click on the Start and then go to the Computer
+2. On Mac, click on Finder and then go through the folders.
+
+#INSERT VIDEO
+
+Let's do some hands-on work here.
+
+Go into your Documents folder regardless if you are on Windows or Mac and create a new Folder.  How do we do that?  
+1. Right-click and choose New Folder.  
+2. Rename the folder MART 120.  
+3. Inside of that folder, create a new folder called Homework 1.  
+4. Inside of that folder, create a new file by opening TextEdit on a Mac or Notepad on Windows and place your GitHub repository link in it.  
+5. Save the file and close it.
+
+I recommend creating a new folder for each homework and then you can save all your projects in there.  We will do this inside your GitHub repository.  We are just practicing here in the Documents folder.  This will come in handy in your other classes too!
+
+So, now what about the Command line interface? If you are interested, this next section is for you!
+
 ## Command-line interface (CLI)
 
 One of the most basic ways of working with your computer is through a [command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface).
@@ -67,21 +108,6 @@ After installing either "Windows Subsystem for Linux" or "Git Bash", you should 
 **[Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)**
 
 This resource walks you through the basics of using terminal via a ‘cutesy’ story. (Sorry if this is not your thing. Unfortunately, it is a very good resource.)
-
-
-
-<!-- You can launch PowerShell console by pressing Windows key, typing PowerShell, and clicking on Windows PowerShell.
-
-If you are unfamiliar with using PowerShell on Windows, please work through the following resource.
-
-**[PowerShell Beginner’s Guide](https://github.com/PowerShell/PowerShell/blob/master/docs/learning-powershell/powershell-beginners-guide.md)**
-
-and watch the following video:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://channel9.msdn.com/Series/GetStartedPowerShell3/01/player" allowFullScreen frameBorder="0"></iframe></div><br /> -->
-
-
-## { TODO: }
 
 Before moving on this week, you should ensure you are comfortable with the following;
 
