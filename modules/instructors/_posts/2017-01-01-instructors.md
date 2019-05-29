@@ -5,7 +5,6 @@ permalink: /:title/
 
 # Instructors
 
-#### Lab Hours
 
 ## Maintained by: [Michael Cassens](https://michaelcassens.github.io/teaching)
 
