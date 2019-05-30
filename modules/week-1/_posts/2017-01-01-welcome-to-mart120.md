@@ -22,7 +22,7 @@ This is exclusively an on-line course. As such, you will be expected to engage w
 
 ## What to Expect
 
-This course will force you to learn and adapt to new technologies, while also thinking about design, and content creation. Some weeks will lean more technical in nature, while others will lean more creative-based.
+This course will expose you to new technologies, while also thinking about design, and content creation. Some weeks will lean more technical in nature, while others will lean more creative-based.
 
 Just as the content focus will shift, so to will the work amount. Some weeks, especially those when new topics are being introduced, have a heavier workload. The goal of this is to make you practice with these new technologies and techniques. Other weeks will slow down and allow you to practice at a more exploratory pace.
 
