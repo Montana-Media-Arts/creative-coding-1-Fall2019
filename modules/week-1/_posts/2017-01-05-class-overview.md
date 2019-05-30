@@ -11,21 +11,21 @@ Now that you have gone through the syllabus, along with its technical details an
 
 ## Text & Reading
 
-There may be some reading but it should help you accomplish your goals. Most of the text will be written write here on this website or text from linked readings.
+There may be some reading, and it should help you accomplish your goals. Most of the text will be written write here on this website or text from linked readings.
 
 ## Code Examples
 
-There also will be a lot of code examples. In addition, there will always be download buttons for the code, so that you can play with it on your own. Remember, you are learning new languages, this means you will need to take time to explore, play, dissect, rebuild, break, etc.
+There also will a number of code examples. In addition, there will always be download buttons for the code, so that you can play with it on your own. Remember, you are learning new languages, this means you will need to take time to explore, play, dissect, rebuild, break, etc.
 
 ## Videos
 
-There will also be videos! I will make small videos all along the way.  I will also record the live sessions for offline viewing.  I like small videos as they will give you a tidbit of information that can be viewed multiple times if needed showing you small parts of the whole.  I think they are easier to digest and I hope you feel the same way.
+There will also be videos! I like to make small videos all along the way.  I will also record the live sessions for offline viewing.  I like shorter videos as they will give you a tidbit of information that can be viewed multiple times if needed.  Then you can focus on the parts you need help on the most.  I think they are easier to digest and I hope you feel the same way too.
 
-This course also utilizes a lot of videos from the web on the topic of creative coding. We will draw from a number of resources to help augment and provide additional examples. There will be a lot of videos from Daniel Shiffman's ["Coding Train"](http://thecodingtrain.com). These are excellent resources for learning and exploring code. So, we will use them!
+This course also utilizes videos from the web on the topic of creative coding. We will draw from a number of resources to help augment and provide additional examples. There will be videos related to each language and then when we get to p5, we will look at some from Daniel Shiffman's ["Coding Train"](http://thecodingtrain.com). These are excellent resources for learning and exploring code. So, we will use them!
 
 ## Pace
 
-As mentioned a few times already, this course will take a lot of your time. We will ramp into the course slowly over the next few weeks.
+As mentioned a few times already, this course should be fun first and foremost and hopefully even if you have to put time into it, it should be something that you enjoy.
 
 This week is a chance for you to familiarize yourself with a few new tools on your computer, absorb the syllabus, and schedule out time in your week for class work.
 
@@ -33,14 +33,14 @@ Next week, we will dive into writing some simple programs using Code.org and exp
 
 ## Dates & Weekly Flow
 
-Currently, I am planning on having weekly "modules" run from Monday to Monday night.
+Currently, I am planning on having weekly "modules" run from Monday to Sunday.
 
-Homework will be due on Monday at 11:59 pm giving you the weekend to work on the projects. 
+Homework will be due on Mondays at 11:59 pm giving you the weekend to work on the projects.
 
 
 ## Homework
 
-You should consider anything within the course lecture content under a *{ TODO: }* section to be part of your "homework".
+In the course website, there will be a `Homework` section and it should mirror that submission located on Moodle.
 
 You will receive additional directives and notes about homework assignments on the Moodle Shell every week.
 
