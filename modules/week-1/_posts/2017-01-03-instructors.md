@@ -24,20 +24,19 @@ I would also like to say that I am first and foremost a teacher, so I will work 
 
 
 > # Bio
->
 > Michael Cassens is a teacher, a computer scientist, creative technologist, gamer, game developer and mobile application developer.  His current practice and research is based on how to become a better instructor, how to use gaming practices and theories to deliver better course content as well as build better and more interesting games for the market place using different games engines and mobile platforms.
 >
 > Some of his favorite games are:
-    * Mario Bros
-    * Clash of Clans
-    * Life is Strange
-    * Syberia
-    * Super Meat Boy
-    * Zelda Breath of the Wild
-    * Bastion
-    * Overwatch
-    * Super Smash Bros
-    * Ms. Pacman
+  Mario Bros,
+  Clash of Clans,
+  Life is Strange,
+  Syberia,
+  Super Meat Boy,
+  Zelda Breath of the Wild,
+  Bastion,
+  Overwatch,
+  Super Smash Bros,
+  Ms. Pacman, and PubG.
 > 
 > Michael is currently at the University of Montana as an Assistant Professor of Media Arts. In addition to continuing his own research, Michael is teaching courses within the Gaming Advising Track. These courses focus on preparing students to contribute in the gaming industry and beyond.
 >
