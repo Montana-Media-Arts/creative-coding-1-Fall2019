@@ -15,7 +15,7 @@ There are two different ways to find things on your computer.
 1. Through the graphical user interface
 2. Through the command-line interface
 
-We are going to go through the graphical user interface and I will discuss the command line interface.  If you are interested in exploring the command-line, I will produce give you more information, but it will not be the focus.
+We are going to go through the graphical user interface and I will discuss the command line interface.  If you are interested in exploring the command-line further, I will give you more information, but it will not be the focus.
 
 # INSERT VIDEO
 
@@ -23,14 +23,15 @@ We are going to go through the graphical user interface and I will discuss the c
 
 We need to define what a directory is and what a file is.  
 1. What is a directory?
-   1. A directory is a folder.  It's just a fancy word for folder.  Remember, we are mimicing the physical desk.  That's why we have a desktop, folders and files.  It's so we can relate to them.
-   2. Files are what we are actually storing.  Maybe they are pictures, videos, text documents, music, and more.  
+   1. A `directory` is a folder.  It's just a fancy word for folder.  Remember, we are mimicing the physical desk.  That's why we have a `desktop`, `folders` and `files`.  It's so we can relate to them.
+   2. `Files` are what we are actually storing.  Maybe they are pictures, videos, text documents, music, and more.  
 
-Why do we care? 
+*Why do we care?* 
 
 We care because we want to organize our folders/directories and the files within them so that they we can find them again. Yes, we have a search bar that helps us, but it's much better if we get into the habit of storing our files in an organized way.
 
 # INSERT VIDEO
+
 How do we access our folders?
 1. In Windows, you can click on the Start and then go to the Computer
 2. On Mac, click on Finder and then go through the folders.
@@ -46,7 +47,7 @@ Go into your Documents folder regardless if you are on Windows or Mac and create
 4. Inside of that folder, create a new file by opening TextEdit on a Mac or Notepad on Windows and place your GitHub repository link in it.  
 5. Save the file and close it.
 
-I recommend creating a new folder for each homework and then you can save all your projects in there.  We will do this inside your GitHub repository.  We are just practicing here in the Documents folder.  This will come in handy in your other classes too!
+I recommend creating a new folder for each homework and then you can save all your projects in there.  We will do this inside your `GitHub` repository.  We are just practicing here in the Documents folder.  This will come in handy in your other classes too!
 
 So, now what about the Command line interface? If you are interested, this next section is for you!
 

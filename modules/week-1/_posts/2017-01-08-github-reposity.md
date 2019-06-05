@@ -1,5 +1,5 @@
 ---
-title: GitHub Part 1
+title: GitHub Repository
 module: 1
 ---
 

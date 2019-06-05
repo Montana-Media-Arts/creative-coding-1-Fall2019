@@ -19,7 +19,7 @@ There also will a number of code examples. In addition, there will always be dow
 
 ## Videos
 
-There will also be videos! I like to make small videos all along the way.  I will also record the live sessions for offline viewing.  I like shorter videos as they will give you a tidbit of information that can be viewed multiple times if needed.  Then you can focus on the parts you need help on the most.  I think they are easier to digest and I hope you feel the same way too.
+There will be videos! I like to make small videos all along the way.  I will also record the live sessions for offline viewing.  I like shorter videos as they will give you a tidbit of information that can be viewed multiple times if needed.  Then you can focus on the parts you need help on the most.  I think they are easier to digest and I hope you feel the same way too.
 
 This course also utilizes videos from the web on the topic of creative coding. We will draw from a number of resources to help augment and provide additional examples. There will be videos related to each language and then when we get to p5, we will look at some from Daniel Shiffman's ["Coding Train"](http://thecodingtrain.com). These are excellent resources for learning and exploring code. So, we will use them!
 
@@ -40,11 +40,9 @@ Homework will be due on Mondays at 11:59 pm giving you the weekend to work on th
 
 ## Homework
 
-In the course website, there will be a `Homework` section and it should mirror that submission located on Moodle.
+In the course website, there will be a `Homework` section and it should mirror the submission located on Moodle.  Let me know if that is not the case!
 
-You will receive additional directives and notes about homework assignments on the Moodle Shell every week.
-
-We are going to share each of our programs with each other via our github links.  I will have a forum for that each week as well.  
+Feel free to share your programs with each other via our github links.  I will have a forum for that each week as well.  
 
 Additionally, we will have topics of discussion each week that will cover a variety of different subjects.
 
@@ -56,21 +54,21 @@ When you have problems in this course, you have a number of solutions available 
 
 1. Google the problem.
     - A critical skill in creative technology is learning to problem solve. Part of this involves learning how to form a good google query. Your first go to for help should always be google.
-2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2019/issues).
+2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2019-Samples/issues).
     - In a couple pages, you will follow along with a short tutorial that will help you signup for GitHub, then star and follow the "course repository". Part of this repository is an "issues forum" where you can post questions and problems you are having. These "issues" will be e-mailed to you, and you can then respond to them.
     - The advantage to the GitHub issues forum is its advanced system for including formatted code. This will help with problem solving.
-3. Go to the 127 Media Arts Lab
+3. Go to the 127 Media Arts Lab -- I will update you on this one.. I am not completely sure about this --
     - The Media Arts Lab in room 127 of McGill hall has daily "lab monitors" who are hired to assist with problem solving and class help. Take advantage of these people and this resource. The lab hours, along with who is in during specific times will be located under the ["Help"]({{site.baseurl}}/help/#lab-hours) tab above.
-4. Contact the [Teaching Assistant]({{site.baseurl}}/instructors/#TA).
+4. Contact the [Teaching Assistant]({{site.baseurl}}/instructors/#TA). -- I will update you on this one as well -- not sure about this one either.
     - The TA for this class should be contacted with content/technical questions, or disputes about grades.
     - They will hold [regular lab hours](#lab-hours) in 127 once a week.
     - They will also monitor the GitHub issues forum.
     - If you need to contact them directly, please use email
         - [TBA](mailto:michael.cassens@umontana.edu?subject=441%20Question)
-5. Get help from [Michael Cassens]({{site.baseurl}}/instructors/#instructor-prof-michael-cassens)
-    - If you have a problem, or need help that no one can offer, please contact Michael Cassens.
-    - One way to get a hold of me is to swing by my weekly office hours. These are posted (and updated) under my [office hours section]({{site.baseurl}}/instructors/#office-hours). This is another way is to email me.
-    - If you are a distance student or cannot make one of those times, please email me. (I will check my email multiple times a day)
+5. Get help from [Michael Cassens]({{site.baseurl}}/instructors/#instructor-prof-michael-cassens) -- definitely use me! That's what I am here for!
+    - If you have a problem, please contact me.  I am in my office a lot beyond my office hours and I can work through Skype, TeamViewer and/or Zoom.  Let me know!
+    - One way to get a hold of me is to swing by my weekly office hours. These are posted (and updated) under my [office hours section]({{site.baseurl}}/instructors/#office-hours). This is another way is to email me, text or call me.
+    - If you are a distance student or cannot make one of those times, please email, text or call. (I check my email multiple times a day -- well actually it just alerts me, so I should get it unless I am out of commission or in a meeting -- sometimes they feel the same to me.)
         - [michael.cassens@umontana.edu](mailto:michael.cassens@umontana.edu?subject=441%20Question)
 
 <br />
