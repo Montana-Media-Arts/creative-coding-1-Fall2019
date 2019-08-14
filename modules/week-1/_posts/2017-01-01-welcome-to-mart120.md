@@ -6,7 +6,7 @@ module: 1
 # Week 1<br />Welcome to Creative Coding 1<br />(MART 120)
 
 
-# INSERT VIDEO HERE
+<!--# INSERT VIDEO HERE-->
 
 ## Overview of the Course
 
@@ -18,7 +18,7 @@ The course focuses on the fundamentals of programming the computer (variables, c
 
 This is exclusively an on-line course. As such, you will be expected to engage with all content through this site along with Moodle to turn in assignments and engage with discussions. You will be assessed through regular project-based assignments, writings, and community engagement.
 
-# INSERT VIDEO HERE
+<!--# INSERT VIDEO HERE-->
 
 ## What to Expect
 
@@ -26,7 +26,7 @@ This course will expose you to new technologies, while also thinking about desig
 
 Just as the content focus will shift, so to will the work amount. Some weeks, especially those when new topics are being introduced, it might feel a little heavier. However, I want you to have a chance to practice with these new technologies and techniques so you feel comfortable with them. Some weeks will hopefully feel as if you are exploring and playing a little more.
 
-# INSERT VIDEO HERE
+<!--# INSERT VIDEO HERE-->
 
 ## Class Goals
 
@@ -37,7 +37,7 @@ There are 4 high-level goals for this course;
 3. Combine technical and artistic practices through inquiry and iteration.
 4. Adopt and use professional practices.
 
-# INSERT VIDEO HERE
+<!--# INSERT VIDEO HERE-->
 
 # Overview the Rest of This Week
 
