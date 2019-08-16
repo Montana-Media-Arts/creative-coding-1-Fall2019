@@ -49,7 +49,7 @@ NOTE: You should not repeat a comment that has already been added by anyone from
 You want to create your own repository if you don't have one. 
 1. Go to ([GitHub](https://github.com))
 2. Create an account by clicking Sign up for GitHub.
-3. 
+3. View your repositories.
 
 
 # GitHub Desktop

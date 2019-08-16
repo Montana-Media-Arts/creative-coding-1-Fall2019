@@ -31,7 +31,7 @@ We care because we want to organize our folders/directories and the files within
 <!--# INSERT VIDEO-->
 
 How do we access our folders?
-1. In Windows, you can click on the `Star` or `Search` and then look for `This PC`
+1. In Windows, you can click on the `Start` or `Search` and then look for `This PC`
 2. On Mac, click on `Finder` and then go through the folders.
 
 <!--# INSERT VIDEO-->
