@@ -9,7 +9,7 @@ As a creative technologist and developer you will need to take control of your c
 
 This means you need to be comfortable with your computer and *know* your computer.
 
-# INSERT VIDEO
+<!--# INSERT VIDEO-->
 
 There are two different ways to find things on your computer.
 1. Through the graphical user interface
@@ -17,7 +17,7 @@ There are two different ways to find things on your computer.
 
 We are going to go through the graphical user interface and I will discuss the command line interface.  If you are interested in exploring the command-line further, I will give you more information, but it will not be the focus.
 
-# INSERT VIDEO
+<!--# INSERT VIDEO-->
 
 ## GUI Directories
 
@@ -30,13 +30,13 @@ We need to define what a directory is and what a file is.
 
 We care because we want to organize our folders/directories and the files within them so that they we can find them again. Yes, we have a search bar that helps us, but it's much better if we get into the habit of storing our files in an organized way.
 
-# INSERT VIDEO
+<!--# INSERT VIDEO-->
 
 How do we access our folders?
 1. In Windows, you can click on the Start and then go to the Computer
 2. On Mac, click on Finder and then go through the folders.
 
-#INSERT VIDEO
+<!--# INSERT VIDEO-->
 
 Let's do some hands-on work here.
 
