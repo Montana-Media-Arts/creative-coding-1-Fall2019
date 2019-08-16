@@ -3,7 +3,7 @@ title: What Will This Course Be Like?
 module: 1
 ---
 
-# INSERT VIDEO
+<!--# INSERT VIDEO-->
 
 # What Will This Course Be Like?
 
@@ -46,7 +46,7 @@ Feel free to share your programs with each other via our github links.  I will h
 
 Additionally, we will have topics of discussion each week that will cover a variety of different subjects.
 
-# INSERT VIDEO HERE
+<!--# INSERT VIDEO HERE-->
 
 ## Getting Help
 
