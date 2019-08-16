@@ -3,8 +3,6 @@ title: GitHub Repository
 module: 1
 ---
 
-# Create your own GitHub repository
-
 <!--# Get a clone on your local Machine-->
 
 # _Issues Forum_ and Notifications from GitHub.com
@@ -19,7 +17,7 @@ This class is heavily utilizing [GitHub.com](https://github.com). Not only is th
 
 By "watching" the course repository you will be get notifications about new issues as well as when new resources become available.
 
-To watch the course repo;
+To watch the course repo:
 
 - Navigate to [https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2019](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2019/issues). This issues forum for this site is also linked to from the "Issues-Forum" tab above in the navbar.
 - In the upper right-hand corner, you should select both "watching" and "star".
@@ -27,7 +25,6 @@ To watch the course repo;
     - **Part of your grade for this course is based on _participation_. This is how you participate.**
         - When you have problems, post them here.
         - If you get an email about a new issue, try to help the person out.
-        - Your participation grade will be based on how active you were on the GitHub issues forum, as well as comments to your classmates to their weekly homework assignments.
 
 ![Follow and Star Repositories on GitHub.com](../imgs/watch_star_CC.png)
 
@@ -47,7 +44,28 @@ If no issue matches your problem, you can open a "New Issue". This allows you to
 
 NOTE: You should not repeat a comment that has already been added by anyone from your class. However, if you would like to further a comment already there, “@mention” the classmate/user and continue their discussion.
 
-As the semester goes on you will be expected to open issues here when you are having problems. You will also be graded on your involvement in the course issue board and your responses provided to fellow classmates throughout the semester.
+# Create your own GitHub repository
+
+You want to create your own repository if you don't have one. 
+1. Go to ([GitHub](https://github.com))
+2. Create an account by clicking Sign up for GitHub.
+3. 
+
+
+# GitHub Desktop
+
+This is a graphical interface to make a copy of your repository on your computer.  Then, you can make changes to your work and then easily post it back to your repository.  Or if you heaven forbid something happens to your computer [trust me, it happens] then you have a back up.
+
+1. Go to ([GitHub Desktop](https://desktop.github.com/))
+2. Download your version and install.
+3. Go to your repository and click on the clone or download button. 
+4. Click on Open in Desktop.
+5. Create a clone on your computer.
+6. Remember to pull first --always-- and then push.
+
+
+
+
 
 [Homework 1 on Moodle](https://moodle.umt.edu/mod/assign/view.php?id=1314517)
 
