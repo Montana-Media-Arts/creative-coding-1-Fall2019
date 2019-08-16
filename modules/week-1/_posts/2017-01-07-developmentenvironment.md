@@ -9,8 +9,6 @@ As a creative technologist and developer you will need to take control of your c
 
 This means you need to be comfortable with your computer and *know* your computer.
 
-<!--# INSERT VIDEO-->
-
 There are two different ways to find things on your computer.
 1. Through the graphical user interface
 2. Through the command-line interface
@@ -33,7 +31,7 @@ We care because we want to organize our folders/directories and the files within
 <!--# INSERT VIDEO-->
 
 How do we access our folders?
-1. In Windows, you can click on the Start and then go to the Computer
+1. In Windows, you can click on the Start or Search and then look for This PC
 2. On Mac, click on Finder and then go through the folders.
 
 <!--# INSERT VIDEO-->
@@ -44,7 +42,7 @@ Go into your Documents folder regardless if you are on Windows or Mac and create
 1. Right-click and choose New Folder.  
 2. Rename the folder MART 120.  
 3. Inside of that folder, create a new folder called Homework 1.  
-4. Inside of that folder, create a new file by opening TextEdit on a Mac or Notepad on Windows and place your GitHub repository link in it.  
+4. Inside of that folder, create a new file by opening TextEdit on a Mac or Notepad on Windows and place your name in it.  
 5. Save the file and close it.
 
 I recommend creating a new folder for each homework and then you can save all your projects in there.  We will do this inside your `GitHub` repository.  We are just practicing here in the Documents folder.  This will come in handy in your other classes too!
