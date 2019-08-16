@@ -31,19 +31,19 @@ We care because we want to organize our folders/directories and the files within
 <!--# INSERT VIDEO-->
 
 How do we access our folders?
-1. In Windows, you can click on the Start or Search and then look for This PC
-2. On Mac, click on Finder and then go through the folders.
+1. In Windows, you can click on the `Star` or `Search` and then look for `This PC`
+2. On Mac, click on `Finder` and then go through the folders.
 
 <!--# INSERT VIDEO-->
 
 Let's do some hands-on work here.
 
-Go into your Documents folder regardless if you are on Windows or Mac and create a new Folder.  How do we do that?  
-1. Right-click and choose New Folder.  
-2. Rename the folder MART 120.  
-3. Inside of that folder, create a new folder called Homework 1.  
-4. Inside of that folder, create a new file by opening TextEdit on a Mac or Notepad on Windows and place your name in it.  
-5. Save the file and close it.
+Go into your `Documents` folder regardless if you are on Windows or Mac and create a new Folder.  How do we do that?  
+1. Right-click and choose `New Folder`.  
+2. Rename the folder `MART 120`.  
+3. Inside of that folder, create a new folder called `Homework 1`.  
+4. Inside of that folder, create a new file by opening `TextEdit` on a Mac or `Notepad` on Windows and place your name in it.  
+5. `Save` the file and close it.
 
 I recommend creating a new folder for each homework and then you can save all your projects in there.  We will do this inside your `GitHub` repository.  We are just practicing here in the Documents folder.  This will come in handy in your other classes too!
 
