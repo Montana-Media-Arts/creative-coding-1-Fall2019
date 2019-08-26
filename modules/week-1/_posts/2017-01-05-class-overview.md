@@ -3,7 +3,7 @@ title: What Will This Course Be Like?
 module: 1
 ---
 
-<!--# INSERT VIDEO-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElmFXycaTLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What Will This Course Be Like?
 
@@ -46,7 +46,7 @@ Feel free to share your programs with each other via our github links.  I will h
 
 Additionally, we will have topics of discussion each week that will cover a variety of different subjects.
 
-<!--# INSERT VIDEO HERE-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZ1ih4vqGiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Getting Help
 
