@@ -6,7 +6,7 @@ module: 1
 # Week 1<br />Welcome to Creative Coding 1<br />(MART 120)
 
 
-<!--# INSERT VIDEO HERE-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CsUk1ttFbBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview of the Course
 
