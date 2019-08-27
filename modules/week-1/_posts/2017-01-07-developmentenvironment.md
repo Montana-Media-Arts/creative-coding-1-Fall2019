@@ -1,5 +1,5 @@
 ---
-title: Command Line
+title: Development Environment
 module: 1
 ---
 
