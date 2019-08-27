@@ -5,9 +5,9 @@ module: 1
 
 <!--# Get a clone on your local Machine-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bw5tn4yL-bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # _Issues Forum_ and Notifications from GitHub.com
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bw5tn4yL-bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This class is heavily utilizing [GitHub.com](https://github.com). Not only is this service where you will host your git repo's and live websites, but this content site lives in GitHub and there is a "resources" repo for this site that contains;
 
@@ -47,18 +47,18 @@ If no issue matches your problem, you can open a "New Issue". This allows you to
 NOTE: You should not repeat a comment that has already been added by anyone from your class. However, if you would like to further a comment already there, “@mention” the classmate/user and continue their discussion.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mxQO3Pv_QGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # Create your own GitHub repository
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mxQO3Pv_QGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You want to create your own repository if you don't have one. 
 1. Go to ([GitHub](https://github.com))
 2. Create an account by clicking Sign up for GitHub.
 3. View your repositories.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wbex3if4ogM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # GitHub Desktop
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wbex3if4ogM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is a graphical interface to make a copy of your repository on your computer.  Then, you can make changes to your work and then easily post it back to your repository.  Or if you heaven forbid something happens to your computer [trust me, it happens] then you have a back up.
 

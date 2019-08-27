@@ -3,9 +3,9 @@ title: Development Environment
 module: 1
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/74ttAA2VEYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # Your Development Environment
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/74ttAA2VEYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 As a creative technologist and developer you will need to take control of your computer. You should start to consider your computer as an instrument or creative tool that serves as an extension of yourself.
 
