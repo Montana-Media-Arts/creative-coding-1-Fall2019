@@ -3,9 +3,11 @@ title: What Will This Course Be Like?
 module: 1
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ElmFXycaTLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # What Will This Course Be Like?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElmFXycaTLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now that you have gone through the syllabus, along with its technical details and policies, lets talk about how this course will actually look like.
 
@@ -46,9 +48,11 @@ Feel free to share your programs with each other via our github links.  I will h
 
 Additionally, we will have topics of discussion each week that will cover a variety of different subjects.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mZ1ih4vqGiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Getting Help
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZ1ih4vqGiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 When you have problems in this course, you have a number of solutions available to assist you in solving them. The following list is the order I would suggest you follow for problem solving.
 
