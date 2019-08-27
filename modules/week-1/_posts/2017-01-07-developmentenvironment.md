@@ -3,6 +3,8 @@ title: Command Line
 module: 1
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/74ttAA2VEYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Your Development Environment
 
 As a creative technologist and developer you will need to take control of your computer. You should start to consider your computer as an instrument or creative tool that serves as an extension of yourself.
@@ -28,7 +30,7 @@ We need to define what a directory is and what a file is.
 
 We care because we want to organize our folders/directories and the files within them so that they we can find them again. Yes, we have a search bar that helps us, but it's much better if we get into the habit of storing our files in an organized way.
 
-<!--# INSERT VIDEO-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6mguy00Cug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 How do we access our folders?
 1. In Windows, you can click on the `Start` or `Search` and then look for `This PC`
