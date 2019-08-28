@@ -63,12 +63,12 @@ When you have problems in this course, you have a number of solutions available 
     - The advantage to the GitHub issues forum is its advanced system for including formatted code. This will help with problem solving.
 3. Go to the 127 Media Arts Lab -- I will update you on this one.. I am not completely sure about this --
     - The Media Arts Lab in room 127 of McGill hall has daily "lab monitors" who are hired to assist with problem solving and class help. Take advantage of these people and this resource. The lab hours, along with who is in during specific times will be located under the ["Help"]({{site.baseurl}}/help/#lab-hours) tab above.
-4. Contact the [Teaching Assistant]({{site.baseurl}}/instructors/#TA). -- I will update you on this one as well -- not sure about this one either.
-    - The TA for this class should be contacted with content/technical questions, or disputes about grades.
-    - They will hold [regular lab hours](#lab-hours) in 127 once a week.
-    - They will also monitor the GitHub issues forum.
+4. Contact the [Teaching Assistant]({{site.baseurl}}/instructors/#TA). Tina tinamdigitalart@yahoo.com.
+    - Feel free to contact Tina with questions any questions.
+    - She plans on holding [regular lab hours](#lab-hours) in 127 once a week once she gets her schedule worked out..
+    - She will also monitor the GitHub issues forum.
     - If you need to contact them directly, please use email
-        - [TBA](mailto:michael.cassens@umontana.edu?subject=441%20Question)
+        - [Tina](mailto:tinamdigitalart@yahoo.com?subject=441%20Question)
 5. Get help from [Michael Cassens]({{site.baseurl}}/instructors/#instructor-prof-michael-cassens) -- definitely use me! That's what I am here for!
     - If you have a problem, please contact me.  I am in my office a lot beyond my office hours and I can work through Skype, TeamViewer and/or Zoom.  Let me know!
     - One way to get a hold of me is to swing by my weekly office hours. These are posted (and updated) under my [office hours section]({{site.baseurl}}/instructors/#office-hours). This is another way is to email me, text or call me.
