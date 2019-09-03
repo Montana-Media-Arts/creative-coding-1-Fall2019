@@ -6,16 +6,8 @@ jotted: false
 
 # Weekly Conclusions
 
-We covered a lot of ground the last two weeks, introducing a brand new language, looking at how to make static figures, and turning your GitHub repo into a live webpage.
-
-## { TODO: }
-
-In addition to the course site this week, you should read the following from the "Getting Started with p5.js" book;
-
-- Chapter 1
-- Chapter 3
-
+Nice job this week!  We did some more work with Code.org learning how to create a mobile application and a small game.  Pretty cool eh? We move to something new next week.
 
 ## Next Week
 
-Next week, we start to animate with p5! So, make sure you are all caught up and ready to get going on that Thursday!
+Next week, we move onto Alice, which is a 3D programming paradigm that let's do even more if we want.  It still has a drag and drop interface, but it is meant for storytelling.  Come back and find out more next week!
