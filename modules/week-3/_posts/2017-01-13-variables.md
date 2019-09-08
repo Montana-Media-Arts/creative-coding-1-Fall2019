@@ -10,6 +10,6 @@ Alert!  Technical term.  Variables which I am sure you have seen before can seem
 
 Watch this video to see how to create a variable.
 
-<!-- insert video here -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2aLEd557a2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Can you create a variable?  What did you name it?  Was it a good name? Can all sprites see it?  Does it show up on your screen?
