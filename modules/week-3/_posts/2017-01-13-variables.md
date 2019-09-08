@@ -6,7 +6,7 @@ jotted: false
 
 # Variables
 
-Alert!  Technical term.  Variables which I am sure you have seen before can seem a little daunting, vague or both.  Variables are nothing more than names that can hold values.  We are going to create a score variable so that we can keep track of our score when we collide with something.
+Alert!  Technical term.  Variables which I am sure you have seen before can seem a little daunting, vague, or both.  Variables are nothing more than names that can hold values.  We are going to create a score variable so that we can keep track of our score when we collide with something.
 
 Watch this video to see how to create a variable.
 
