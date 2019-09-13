@@ -6,8 +6,8 @@ jotted: false
 
 # Weekly Conclusions
 
-Nice job this week!  We did some more work with Code.org learning how to create a mobile application and a small game.  Pretty cool eh? We move to something new next week.
+Nice job this week!  We did some more work with Code.org learning how to create a mobile application and a small game.  Pretty cool, eh? We move to something new next week.
 
 ## Next Week
 
-Next week, we move onto Alice, which is a 3D programming paradigm that let's do even more if we want.  It still has a drag and drop interface, but it is meant for storytelling.  Come back and find out more next week!
+Next week, we move onto Alice, which is a 3D programming paradigm that let's do even more if we want.  It still has a drag and drop interface and is meant for storytelling.  Come back and find out more next week!
