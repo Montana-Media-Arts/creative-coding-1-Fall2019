@@ -16,3 +16,4 @@ After you install Alice, you should have a shortcut to the program either on you
 After choosing a background, you are presented with the main interface.  Watch the video below as I provide an overview of the basic interface.
 
 <!-- video here -->
+<iframe width="560" height="315" src="https://umontana.zoom.us/recording/share/GD6TMhixO3ERbq1bzqNdlIZLPst2p_exLoMoLEivG--wIumekTziMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
