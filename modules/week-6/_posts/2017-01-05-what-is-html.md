@@ -28,8 +28,6 @@ So, move to the next section to see the underlying structure.
 
 
 
-Now, you try this below.  You can copy and paste the code into the section below, and see what it does.
 
-<iframe width="100%" height="500px" src="http://www.silverleaf-consulting.com/CodeEditor/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
