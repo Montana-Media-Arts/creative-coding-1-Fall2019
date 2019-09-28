@@ -30,30 +30,3 @@ Here is an example of a simple form.
 ```
 
 Look what we did here!  We created a basic yet pretty bland form!  So, challenge yourself to add more fields. Did it work?  Great!
-
-
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/07_map_01/sketch.js"
-        },
-        {
-            type: "html",
-            hide: true,
-            url:"../../../p5_resources/index.html"
-        }
-    ],
-    showBlank: false,
-    showResult: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
-

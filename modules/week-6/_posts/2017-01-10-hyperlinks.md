@@ -1,10 +1,12 @@
 ---
-title: Hyperlinks
+title: Hyperlinks and Images
 module: 6
 jotted: true
 ---
 
-# Hyperlinks
+# Hyperlinks and Images
+
+## Hyperlinks
 
 Hyperlinks have been around since the beginning of HTML4 and continue today. They are the bedrock of web pages as they take us places.  They have a similar structure to image tags, and they look like this.
 
@@ -38,31 +40,26 @@ Whereas on the second page, you might have something that looks like this.
 
 ```
 
-Keep in mind that you have to have two pages named *secondpage.html* and *firstpage.html* respectively.  How do we do that?  Continue, and I will show you!
+Keep in mind that you have to have two pages named *secondpage.html* and *firstpage.html* respectively.
 
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+<!-- video -->
 
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:""
-        },
-        {
-            type: "html",
-            hide: true,
-            url:"../../../p5_resources/index.html"
-        }
-    ],
-    showBlank: false,
-    showResult: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+## Images
+
+If you want to make images appear and they are on your computer, make sure you have a folder for all your .html files and your `.png, .jpg, .gif` files.  Then, you can reference your images directly without a path.  If you create an images folder inside of your main folder, you may have to do something like this.
+
+```html
+<html>
+    <title>My first page</title>
+    <body>
+        <img src="../images/myimage.jpg">
+    </body>
+</htmL>
+
+```
+
+Did you see the `..`?  That tells the computer to go up a directory and then look into the images folder for your file.  It should work in a file you create as long as everything is in the same folder.  Watch the video below for more information.
+
+<!-- video -->
 

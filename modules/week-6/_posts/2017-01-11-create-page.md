@@ -17,20 +17,8 @@ You have a couple of options:
    4. Once the dialog appears, type in your name and then, put `.html`  This extension tells your computer to use your default web browser to open this file. 
 2. If you have Atom, Notepad, Notepad++, or any other editing program, you can do the essentially the same thing.  Just remember to save it with the `.html` extension and it should work.
 
-If you want to make images appear and they are on your computer, make sure you have a folder for all your .html files and your `.png, .jpg, .gif` files.  Then, you can reference your images directly without a path.  If you create an images folder inside of your main folder, you may have to do something like this.
 
-```html
-<html>
-    <title>My first page</title>
-    <body>
-        <img src="../images/myimage.jpg">
-    </body>
-</htmL>
-
-```
-
-Did you see the `..`?  That tells the computer to go up a directory and then look into the images folder for your file.  It should work in a file you create as long as everything is in the same folder.  Watch the video below for more information.
-
-<!-- video -->
 
 Next up, we are going to take a look at HTML forms.  What are those?  I bet you have used these a lot!
+
+<!-- video -->

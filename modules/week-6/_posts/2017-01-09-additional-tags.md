@@ -91,27 +91,3 @@ Try this example out and see if it works:
 
 Let's move on and learn about hyperlinks.
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:""
-        },
-        {
-            type: "html",
-            hide: true,
-            url:"../../../p5_resources/index.html"
-        }
-    ],
-    showBlank: false,
-    showResult: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>

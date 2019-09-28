@@ -44,31 +44,6 @@ Finally, let's look at checkboxes and the role they play in forms.  They allow u
 
 Feel free to experiment with these.
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/07_map_01/sketch.js"
-        },
-        {
-            type: "html",
-            hide: true,
-            url:"../../../p5_resources/index.html"
-        }
-    ],
-    showBlank: false,
-    showResult: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
-
-
+<!-- video -->
 
 Next, let's incorporate some of these items into our homework.
