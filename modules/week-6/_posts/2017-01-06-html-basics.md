@@ -29,12 +29,12 @@ What are these tags?
 3. p - the p tag creates paragraph breaks
 4. br - the br tag creates a simple line break
 
-Now, you try this below.  You can copy and paste the code into the section below, and see what it does.
+If you want to try out the code above, click on the link below. It will open an online code editor so you can see what it your HTML will look like in a browser.
 
 <!-- video -->
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
-<iframe width="100%" height="500px" src="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 

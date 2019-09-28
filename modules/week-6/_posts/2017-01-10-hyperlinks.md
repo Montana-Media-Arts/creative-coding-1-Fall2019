@@ -1,12 +1,11 @@
 ---
-title: Hyperlinks and Images
+title: Hyperlinks
 module: 6
 jotted: true
 ---
 
-# Hyperlinks and Images
+# Hyperlinks
 
-## Hyperlinks
 
 Hyperlinks have been around since the beginning of HTML4 and continue today. They are the bedrock of web pages as they take us places.  They have a similar structure to image tags, and they look like this.
 
@@ -22,9 +21,9 @@ So, how does the whole page look?
 <html>
     <title>My first page</title>
     <body>
-        <a href="secondpage.html>Go to my other page</a>
+        <a href="secondpage.html">Go to my other page</a>
     </body>
-</htmL>
+</html>
 
 ```
 
@@ -34,9 +33,9 @@ Whereas on the second page, you might have something that looks like this.
 <html>
     <title>My second page</title>
     <body>
-        <a href="firstpage.html>Go to my first page</a>
+        <a href="firstpage.html">Go to my first page</a>
     </body>
-</htmL>
+</html>
 
 ```
 
@@ -45,21 +44,10 @@ Keep in mind that you have to have two pages named *secondpage.html* and *firstp
 
 <!-- video -->
 
-## Images
-
-If you want to make images appear and they are on your computer, make sure you have a folder for all your .html files and your `.png, .jpg, .gif` files.  Then, you can reference your images directly without a path.  If you create an images folder inside of your main folder, you may have to do something like this.
-
-```html
-<html>
-    <title>My first page</title>
-    <body>
-        <img src="../images/myimage.jpg">
-    </body>
-</htmL>
-
-```
 
 Did you see the `..`?  That tells the computer to go up a directory and then look into the images folder for your file.  It should work in a file you create as long as everything is in the same folder.  Watch the video below for more information.
+
+<a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
 <!-- video -->
 

@@ -44,6 +44,8 @@ Finally, let's look at checkboxes and the role they play in forms.  They allow u
 
 Feel free to experiment with these.
 
+<a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
+
 <!-- video -->
 
 Next, let's incorporate some of these items into our homework.

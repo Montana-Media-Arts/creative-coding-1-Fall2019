@@ -53,7 +53,7 @@ It looks like the following:
             <li>Hedgehogs</li>
         </ul>
     </body>
-</htmL>
+</html>
 
 ```
 
@@ -88,6 +88,8 @@ Try this example out and see if it works:
 ```
 
 <!-- video -->
+
+<a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
 Let's move on and learn about hyperlinks.
 

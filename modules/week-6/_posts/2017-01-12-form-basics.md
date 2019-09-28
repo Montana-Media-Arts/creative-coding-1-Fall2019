@@ -25,8 +25,10 @@ Here is an example of a simple form.
             <button id="mySubmit">Submit</button>
         </form>
     </body>
-</htmL>
+</html>
 
 ```
+
+<a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
 Look what we did here!  We created a basic yet pretty bland form!  So, challenge yourself to add more fields. Did it work?  Great!
