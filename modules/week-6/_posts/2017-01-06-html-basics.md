@@ -33,29 +33,7 @@ Now, you try this below.  You can copy and paste the code into the section below
 
 <!-- video -->
 
-<div id="jotted-demo-1" class="jotted-theme-stacked" height="150px;"></div>
 
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/02_modulo_01/sketch.js"
-        },
-        {
-            type: "html",
-            hide: true,
-            url:"../../../p5_resources/index.html"
-        }
-    ],
-    showBlank: false,
-    showResult: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<iframe width="100%" height="500px" src="http://www.silverleaf-consulting.com/CodeEditor/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
