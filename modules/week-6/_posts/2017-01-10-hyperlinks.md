@@ -6,15 +6,15 @@ jotted: true
 
 # Hyperlinks
 
-Hyperlinks have been around since the beginning of HTML4 and continue today. They are the bedrock of web pages as they take us places.  They have the similar structure to image tags and they look like this.
+Hyperlinks have been around since the beginning of HTML4 and continue today. They are the bedrock of web pages as they take us places.  They have a similar structure to image tags, and they look like this.
 
 ```html
 <a href="mypage.html">Link to somewhere</a>
 ```
 
-The `<a>` tag is called the anchor tag.  It tells us that there will be link there.  The `href` is the attribute that indicates where you are going to go.  So in the previous instance, if we clicked on the *Link to somewhere*, it would take it us to the *mypage.html* page.
+The `<a>` tag is called the anchor tag.  It tells us that there will be a link there.  The `href` is the attribute that indicates where you are going to go.  So in the previous instance, if we clicked on the *Link to somewhere*, it would take us to the *mypage.html* page.
 
-So, what would a whole page look like?
+So, how does the whole page look?
 
 ```html
 <html>
@@ -26,7 +26,7 @@ So, what would a whole page look like?
 
 ```
 
-Whereas on the second page, you might something that looks like this.
+Whereas on the second page, you might have something that looks like this.
 
 ```html
 <html>
@@ -38,7 +38,7 @@ Whereas on the second page, you might something that looks like this.
 
 ```
 
-Keep in mind that you have to have two pages named *secondpage.html* and *firstpage.html* respectively.  How do we do that?  Continue on and I will show you!
+Keep in mind that you have to have two pages named *secondpage.html* and *firstpage.html* respectively.  How do we do that?  Continue, and I will show you!
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>

@@ -6,13 +6,13 @@ jotted: true
 
 # HTML
 
-I always find it userful to define what it is we are doing before we use it.  So what is HTML?
+I always find it useful to define what it is we are doing before we use it.  So what is HTML?
 
-HTML stands for Hyper Text Markup Language
+HTML stands for HyperText Markup Language
 
 Is it an actual programming language?  No
 
-It's a markup language which means it can be displayed a web browser, but it is not compiled. It's an important distinction because that means it doesn't go down to the machine code level. If you aren't completely convinced at this point, don't worry! I am just priming you for a later discussion.  Needless to say, just think of HTML as a way to make stuff show up in the browser.  So, let's try it out.  What does it look like?
+It's a markup language which means it can be displayed a web browser, but not compiled. It's an important distinction because that means it doesn't go down to the machine code level. If you aren't entirely convinced at this point, don't worry! I am just priming you for a later discussion.  Just think of HTML as a way to make stuff show up in the browser.  So, let's try it out.
 
 ```html
 <html>
@@ -20,9 +20,9 @@ It's a markup language which means it can be displayed a web browser, but it is 
 </html>
 ```
 
-Notice the `<html>` starts with a `<` symbol and then ends with a `>` symbol.  The tag, in this case `html` goes between the two angle brackets.  Then, as you see, the tag always ends with `</html>`  This is called the closing tag.
+Notice the `<html>` starts with a `<` symbol and then ends with a `>` symbol.  The tag, in this case, `html` goes between the two angle brackets.  Then, as you see, the tag always ends with `</html>`  This is called the closing tag.
 
-So, move to the next section to see the basic structure.
+So, move to the next section to see the underlying structure.
 
 <!-- video -->
 

@@ -6,9 +6,9 @@ jotted: true
 
 # HTML Forms
 
-What are forms?  Well, if you have ever purchased anything online or filled out application online or signed up for an email, your social media account or more, you have filled out a form.  Forms are just a way for us to gather data from the end-user.  Keep in mind there are some principles in which we should ahere.
+What are HTML forms?  Well, if you have ever purchased anything online or filled out an application online or signed up for an email, your social media account or more, you have filled out a form.  Forms are just a way for us to gather data from the end-user.  Keep in mind there are some principles to which we should adhere.
 
-First, we want to adhere to standards. Use the component for their intendened use.  Use checkboxes for multiple selection and radio buttons for multiple choices, but only one correct one.
+First, we want to adhere to standards. Use the component for their intended use.  Use checkboxes for multiple selections and radio buttons for various choices, but only one correct one.
 
 Aso, use dropdown lists, use those to control the input gathered.  We are going to first focus on creating forms and what tags are required. Then, we will add a look and feel to them and add a little functionality to them.
 
@@ -29,7 +29,7 @@ Here is an example of a simple form.
 
 ```
 
-Look what we did here!  We created a simple, yet pretty bland form!  So, challenge yourself to add more fields. Did it work?  Great!
+Look what we did here!  We created a basic yet pretty bland form!  So, challenge yourself to add more fields. Did it work?  Great!
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>

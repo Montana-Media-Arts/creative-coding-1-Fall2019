@@ -6,9 +6,9 @@ jotted: true
 
 # Additional Tags
 
-There are two tags that are inside the `<html>` tag, but do not show up on the page itself.  The first is the `<title>` tag and the second is the `<head>` tag.  They both exist above body tag and they serve two very distinct purposes.
+Two tags that are inside the `<html>` tag, but do not show up on the page are the title tag and the head tag.  The first is the `<title>` tag, and the second is the `<head>` tag.  They both exist above body tag, and they serve two very distinct purposes.
 
-1. title - the text that goes between the title tags show up in the tab or in title bar of the browser.
+1. title - the text that goes between the title tags show up in the tab or the title bar of the browser.
 2. head - the head tag contains items like included files.  We will examine these as time goes on.  
 
 Here's an example of the head and the title tags.
@@ -29,11 +29,11 @@ Here's an example of the head and the title tags.
 
 <!-- video -->
 
-There are a number of other tags that we use for display purposes.
+There are several other tags that we use for display purposes.
 
 1. ol - Use this tag to create an ordered list.  
 2. ul - Use this tag to create an unordered list
-3. li - this tag must be used with the ol and ul to make the list iteams appear
+3. li - this tag must be used with the ol and ul to make the list items appear
 
 It looks like the following:
 
@@ -61,7 +61,7 @@ Try these tags in the section below to ensure that you see the ordered and the u
 
 <!-- video -->
 
-What else can we do?  If I want to display images, there is a special tag for that.  It's the `<img>` tag.  When we use this tag, we are going see something new. Let's look at an example, and then I will explain it to you.
+What else can we do?  If I want to display images, there is a unique tag for that.  It's the `<img>` tag.  Using this tag, we can view images. Let's look at an example, and then I will explain it to you.
 
 ```html
 <html>
@@ -73,7 +73,7 @@ What else can we do?  If I want to display images, there is a special tag for th
 
 ```
 
-What did I just do? Yikes!  What I did was add what is called an `attribute` to the `<img>` tag.  This attribute is where we store the location of the image.  It can on your computer or reference an image online.  Pretty cool huh?  There are more attributes if we want to change the size of the image as well.  They are `height` and `width`.
+What did I do? Yikes!  What I did was add what is called an `attribute` to the `<img>` tag.  This attribute is where we store the location of the image.  It can be on your computer or reference an image online.  Pretty cool, huh?  There are more attributes if we want to change the size of the image as well.  They are `height` and `width`.
 
 Try this example out and see if it works:
 
@@ -89,7 +89,7 @@ Try this example out and see if it works:
 
 <!-- video -->
 
-Let's move on and see what hyperlinks are all about.
+Let's move on and learn about hyperlinks.
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
