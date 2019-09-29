@@ -43,9 +43,9 @@ Keep in mind that you have to have two pages named *secondpage.html* and *firstp
 
 
 <!-- video -->
+<iframe width="560" height="315" src="https://umontana.zoom.us/recording/play/V-pYuGcb458imbF1fVAOoy6bhatQIPhrk8whAhPjWTIeTnPPIHfQf64FfTwA4yOe?continueMode=true
+" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-Did you see the `..`?  That tells the computer to go up a directory and then look into the images folder for your file.  It should work in a file you create as long as everything is in the same folder.  Watch the video below for more information.
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 

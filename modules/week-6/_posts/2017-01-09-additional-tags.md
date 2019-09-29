@@ -88,6 +88,8 @@ Try this example out and see if it works:
 ```
 
 <!-- video -->
+<iframe width="560" height="315" src="https://umontana.zoom.us/recording/play/TsfeO9wf0ahSSHsmeFyn5o-UbW_GSWPUr8FFBS3xbDImG61BokWEys-ZxJ3hZ-rq?continueMode=true
+" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
