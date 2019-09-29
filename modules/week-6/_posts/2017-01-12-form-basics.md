@@ -28,6 +28,7 @@ Here is an example of a simple form.
 </html>
 
 ```
+<a href="https://umontana.zoom.us/recording/play/GO_MDg10XBmdQxTaqsUElvCDWN2v8OQpW_ez7U5a_8z_Nhvs8i7KcWIjTYWz9gxz?continueMode=true" target="_new">Click here for this section's Video</a>
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
