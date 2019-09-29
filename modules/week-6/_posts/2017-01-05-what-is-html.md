@@ -25,7 +25,7 @@ Notice the `<html>` starts with a `<` symbol and then ends with a `>` symbol.  T
 So, move to the next section to see the underlying structure.
 
 <!-- video -->
-<a href="https://umontana.zoom.us/recording/play/WLKq15Hz2pa2Xt3e-P_Xho4zA3uOx5GJG8zxCKrkXjVXxGji-FwsTZbdG0W54YFG?continueMode=true" target="_new">Click here for this section's Video</a>
+<a href="https://umontana.zoom.us/recording/play/WLKq15Hz2pa2Xt3e-P_Xho4zA3uOx5GJG8zxCKrkXjVXxGji-FwsTZbdG0W54YFG?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 
 

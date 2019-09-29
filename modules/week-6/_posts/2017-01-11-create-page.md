@@ -22,4 +22,4 @@ You have a couple of options:
 Next up, we are going to take a look at HTML forms.  What are those?  I bet you have used these a lot!
 
 <!-- video -->
-<a href="https://umontana.zoom.us/recording/play/V-pYuGcb458imbF1fVAOoy6bhatQIPhrk8whAhPjWTIeTnPPIHfQf64FfTwA4yOe?continueMode=true" target="_new">Click here for this section's Video</a>
+<a href="https://umontana.zoom.us/recording/play/V-pYuGcb458imbF1fVAOoy6bhatQIPhrk8whAhPjWTIeTnPPIHfQf64FfTwA4yOe?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

@@ -32,7 +32,7 @@ What are these tags?
 If you want to try out the code above, click on the link below. It will open an online code editor so you can see what it your HTML will look like in a browser.
 
 <!-- video -->
-<a href="https://umontana.zoom.us/recording/play/2P42jaZx3HnydwDebKapaSfG7N_m0ShkQyBZILNETi1uEuNoH32J4toDx_1XYPrc?continueMode=true" target="_new">Click here for this section's Video</a>
+<a href="https://umontana.zoom.us/recording/play/2P42jaZx3HnydwDebKapaSfG7N_m0ShkQyBZILNETi1uEuNoH32J4toDx_1XYPrc?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 

@@ -43,7 +43,7 @@ Keep in mind that you have to have two pages named *secondpage.html* and *firstp
 
 
 <!-- video -->
-<a href="https://umontana.zoom.us/recording/play/V-pYuGcb458imbF1fVAOoy6bhatQIPhrk8whAhPjWTIeTnPPIHfQf64FfTwA4yOe?continueMode=true" target="_new">Click here for this section's Video</a>
+<a href="https://umontana.zoom.us/recording/play/V-pYuGcb458imbF1fVAOoy6bhatQIPhrk8whAhPjWTIeTnPPIHfQf64FfTwA4yOe?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
