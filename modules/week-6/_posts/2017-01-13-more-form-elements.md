@@ -20,6 +20,8 @@ One of the most common form elements is the drop-down list.  It looks something 
 ```
 These allow us to restrict what the user can choose and helps us make sure we get data exactly the way we want it. If we use a text box for everything, then our users could type anything they wanted.  For example, they might say `Apple`, or `aPpple`, or `APPLE` and that would be bad.
 
+<!-- video -->
+
 <!-- radio -->
 What other items can you find in forms?  I spoke of radio buttons and checkboxes in an earlier section.  How would you implement a radio button list?
 
@@ -29,6 +31,7 @@ What other items can you find in forms?  I spoke of radio buttons and checkboxes
 <input type="radio" name="color" value="green">Green<br>
 <input type="radio" name="color" value="purple">Purple
 ```
+<!-- video -->
 
 <!-- checkboxes -->
 Finally, let's look at checkboxes and the role they play in forms.  They allow us to select multiple items in a list.  We see these most often when a form asks us what our interests are.  It may look something like this.
