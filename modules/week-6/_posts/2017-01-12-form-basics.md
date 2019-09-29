@@ -20,9 +20,9 @@ Here is an example of a simple form.
     <body>
         
         <form action="nextPage.html" type="Post">
-            First Name: <input type="fName"><br>
-            Last Name: <input type="lName"><br>
-            <button id="mySubmit">Submit</button>
+            First Name: <input type="text" id="fName"><br>
+            Last Name: <input type="text" id="lName"><br>
+            <button id="mySubmit" type="submit">Submit</button>
         </form>
     </body>
 </html>
