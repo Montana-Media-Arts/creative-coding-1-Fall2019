@@ -31,8 +31,8 @@ body {
 }
 ```
 
-1. body is the *selector*
-2. bgcolor and text-align are part of the *declaration*.  Their part is the *CSS property name* and are located in the *declaration block* They are separated by a semi-colon *important!* and the declaration block is surrounded by *{ }* braces.
-3. Finally, *pink* and *center* are also part of the *declaration* but are the *values* of the properties.
+1. body is the **selector**
+2. bgcolor and text-align are part of the **declaration**.  Their part is the **CSS property name** and are located in the **declaration block** They are separated by a semi-colon **important!** and the declaration block is surrounded by **{ }** braces.
+3. Finally, **pink** and **center** are also part of the **declaration** but are the **values** of the properties.
 
 <!-- video -->
