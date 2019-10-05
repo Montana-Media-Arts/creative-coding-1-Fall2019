@@ -8,7 +8,7 @@ jotted: true
 
 ## Embedded
 
-The second way in which we can add CSS by using **embedded** styles on the page.  This means we apply styles to the whole page but only this page.  An exmaple might look like this.
+The second way in which we can add CSS by using **embedded** styles on the page.  By having embedded styles, we apply a format to only this page.  An example might look like this.
 
 ```html
 <html>

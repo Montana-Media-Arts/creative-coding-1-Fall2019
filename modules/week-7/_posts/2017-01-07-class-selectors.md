@@ -6,9 +6,9 @@ jotted: true
 
 # Class Selectors
 
-In the previous section, we added styles by using inline styles, embedded styles and external style sheets.  
+In the previous section, we added styles by using inline styles, embedded styles, and external style sheets.  
 
-In our styles, we were general to all span tags.  However, what if we wanted to find a specific tag or apply a style to a number of different tags?  That is where we uses classes and ID's in style.  We will use style sheets from now on.
+In our styles, we were general to all span tags.  However, what if we wanted to find a specific tag or apply a style to several different tags?  That is where we use classes and ids in our stylesheets.  We will use stylesheets from now on.
 
 Here's an example of an HTML page.
 
@@ -36,7 +36,7 @@ Here's an example of an HTML page.
     }
 ```
 
-Notice in this example, the CSS has a name `.blueColor`.  This applies the blue color, changes the font type and the size of the `span` tag and an `a` (anchor) tag.  They both turned blue while the other span tag without the class name did not.
+Notice in this example, the CSS has the name `.blueColor`.  The blueColor class identifier applies the blue color, changes the font type, and the size of the `span` tag and an `a` (anchor) tag.  They both turned blue while the other span tag without the class name did not.
 
 We can get even more specific by doing something like this.
 

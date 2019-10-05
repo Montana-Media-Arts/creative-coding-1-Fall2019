@@ -8,7 +8,7 @@ jotted: true
 
 ## CDN
 
-There are some popular stylesheets out there. One of the most popular is Bootstrap.  In order to use it, we have a couple of options. We have two options.
+There are some popular stylesheets out there. One of the most popular is Bootstrap.  To use it, we have a couple of options. We have two options.
 
 1. Use a CDN
 2. Download a local copy and reference the local copy.
@@ -36,7 +36,7 @@ There are some popular stylesheets out there. One of the most popular is Bootstr
 </html>
 ```
 
-Take a look at the `href` attribute in the `link` tag at the top inside the `head` tag. It points to what is called a CDN.  This stands for **Content Delivery Network** There are some benefits to using these.  Your CSS is always up to date whenever it is updated by the author.  However, you must be online to apply this style. So, if you need an offline application, you may want to use a local copy.
+Take a look at the `href` attribute in the `link` tag at the top inside the `head` tag. It points to what is called a CDN.  CDN stands for **Content Delivery Network** There are some benefits to using these.  Your CSS is always up to date whenever the author updates it.  However, you must be online to apply this style. So, if you need an offline application, you may want to use a local copy.
 
 ## Local Copy
 
@@ -50,7 +50,7 @@ Under **Compiled CSS and JS**, click **Download**.
 
 You are going to download a zip file.
 
-Save that in a directory near you file.  Then, make sure you unzip your file into a folder.
+Save that in a directory near your file.  Then, make sure you unzip your file into a folder.
 
 Then, you will reference your new file like this.
 
@@ -60,7 +60,7 @@ https://jquery.com/
 
 Then, click on `Download jQuery`.
 
-Then, right-click `Download the compressed, production jQuery 3.x.x` and save the file in the your `js` folder with Bootstrap.
+Then, right-click `Download the compressed, production jQuery 3.x.x` and save the file in your `js` folder with Bootstrap.
 
 
 ```html
@@ -86,6 +86,6 @@ Then, right-click `Download the compressed, production jQuery 3.x.x` and save th
 </html>
 ```
 
-Did you see the same thing as before?  Unfortunately, it's not as simple as using a CDN. However, if you need an offline solution, this will work.  This works for other styles (and JavaScript) that you may want to use in the future too.
+Did you see the same thing as before?  Unfortunately, it's not as simple as using a CDN. However, if you need an offline solution, this will work.  Downloading and saving libraries work for other styles (and JavaScript) that you may want to use in the future too.
 
 <!-- video -->
