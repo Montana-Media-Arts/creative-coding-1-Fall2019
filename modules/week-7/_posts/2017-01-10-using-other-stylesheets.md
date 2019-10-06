@@ -69,9 +69,9 @@ Then, right-click `Download the compressed, production jQuery 3.x.x` and save th
     <head>
           <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./3.4.0/css/bootstrap.min.css">
-<script src="./3.4.0/js/jquery-3.4.1.min.js"></script>
-<script src="./3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./styles/bootstrap-4.3.1/css/bootstrap.min.css">
+<script src="./styles/bootstrap-4.3.1/js/jquery-3.4.1.min.js"></script>
+<script src="./styles/bootstrap-4.3.1/js/bootstrap.min.js"></script>
     </head>
     <body>
         <button type="button" class="btn">Basic</button>
