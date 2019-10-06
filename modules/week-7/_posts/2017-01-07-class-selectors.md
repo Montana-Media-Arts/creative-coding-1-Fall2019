@@ -52,6 +52,8 @@ We can get even more specific by doing something like this.
 
 Now, only span tags with the class `blueColor` will change.  No other tags will work.
 
+<a href="https://umontana.zoom.us/recording/play/U4KljRbP4QCe_cQFVZMgV4jWXmL6XS3dKaeMI48gL8i-h5vtV3narFBXN03scANP?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 <!-- video -->
 
 

@@ -42,4 +42,6 @@ And the CSS might look like this.
 
 This time, the color and the size of the text specific to the ID because of the `#`.
 
+<a href="https://umontana.zoom.us/recording/play/AYB5jEiRgj0HCFdMYSz59WJvCGJq3sznjE-nkYmz0zBwuG9aM9p31rgj_XNtChea?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 <!-- video -->

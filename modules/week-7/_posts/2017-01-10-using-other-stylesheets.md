@@ -87,4 +87,6 @@ Then, right-click `Download the compressed, production jQuery 3.x.x` and save th
 
 Did you see the same thing as before?  Unfortunately, it's not as simple as using a CDN. However, if you need an offline solution, this will work.  Downloading and saving libraries work for other styles (and JavaScript) that you may want to use in the future too.
 
+<a href="https://umontana.zoom.us/recording/play/wndK0otYtUncEhNDvQQT93q1A_69jVXNmjzq5kQB_7uy2u3qtl24ZX5V70dg9iEq?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 <!-- video -->
