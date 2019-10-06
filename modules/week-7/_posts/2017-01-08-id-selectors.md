@@ -29,14 +29,14 @@ And the CSS might look like this.
 ```html
     #specificColor{
         color:blue;
-        text-family:arial;
-        text-size:24px;
+        font-family:verdana;
+        font-size:24px;
     }
 
     #specificLink{
         color:red;
-        text-family:arial;
-        text-size:28px;
+        font-family:arial;
+        font-size:28px;
     }
 ```
 
