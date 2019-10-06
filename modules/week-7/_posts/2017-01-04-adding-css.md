@@ -24,4 +24,6 @@ This style removes the underline from the link to eBay.  It is important to note
 
 What do we need to consider when we use inline styles? If we use inline styles and we want that style on another page, we will need to duplicate the style on that page too.  Not bad unless we have many pages with multiple tags that need to be changed.
 
+<a href="https://umontana.zoom.us/recording/share/mky86EDs9BJhl-JzEE2kOmooW6rYb2TCUHvmIhmMcvmwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 <!-- video -->

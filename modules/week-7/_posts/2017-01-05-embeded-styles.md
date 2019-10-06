@@ -34,4 +34,5 @@ In this example, you see the first and the third sentence have a background colo
 
 What are some of the positives and negatives of using embedded styles?
 
+<a href="https://umontana.zoom.us/recording/share/Udr8dWDE0uYdEhHTtbKKYOuIm0k2iHhsfB7hwa1N7BmwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 <!-- video -->

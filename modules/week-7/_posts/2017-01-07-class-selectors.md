@@ -27,12 +27,12 @@ Here's an example of an HTML page.
         </body>
     </html>
 ```
-
+<br>
 ```html
     .blueColor{
         text-color:blue;
-        text-family:arial;
-        text-size:24px;
+        font-family:arial;
+        font-size:24px;
     }
 ```
 
@@ -43,8 +43,8 @@ We can get even more specific by doing something like this.
 ```html
     span.blueColor{
         color:blue;
-        text-family:arial;
-        text-size:24px;
+        font-family:arial;
+        font-size:24px;
     }
 ```
 

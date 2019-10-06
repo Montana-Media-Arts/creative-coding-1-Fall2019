@@ -47,4 +47,7 @@ So, when you have all three types of styles on your page, which style is applied
 
 Yes, that's right; the browser has a style sheet.  If you are interested, take a look around, and you can find and change your browser's style sheet. Fun right?
 
+<a href="https://umontana.zoom.us/recording/share/CSAT9qvMOp7X1q8UMw83vh8Ybl3sAQufDaFG7MWm_TewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
+
 <!-- video -->
