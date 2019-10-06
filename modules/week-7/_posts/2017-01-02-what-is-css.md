@@ -18,5 +18,7 @@ In a nutshell, what is CSS, and what are the benefits? W3Schools says this.
 2. CSS describes how to display HTML elements on a screen, paper, or in other media
 3. CSS saves a lot of work. It can control the layout of multiple web pages all at once
 4. Store external stylesheets in CSS files
+   
+<a href="https://youtu.be/6AwAJ1tyWoA" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 <!-- video -->
