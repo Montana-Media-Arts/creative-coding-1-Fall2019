@@ -42,7 +42,7 @@ We can get even more specific by doing something like this.
 
 ```html
     span.blueColor{
-        text-color:blue;
+        color:blue;
         text-family:arial;
         text-size:24px;
     }

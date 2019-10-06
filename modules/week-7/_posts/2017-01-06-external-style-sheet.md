@@ -16,7 +16,7 @@ How does it look?
 
 ```html
 span{
-    text-color:white;
+    color:white;
     background-color:red;
 }
 ```

@@ -28,13 +28,13 @@ And the CSS might look like this.
 
 ```html
     #specificColor{
-        text-color:blue;
+        color:blue;
         text-family:arial;
         text-size:24px;
     }
 
     #specificLink{
-        text-color:red;
+        color:red;
         text-family:arial;
         text-size:28px;
     }
