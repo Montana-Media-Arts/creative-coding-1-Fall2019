@@ -30,7 +30,7 @@ Here's an example of an HTML page.
 <br>
 ```html
     .blueColor{
-        text-color:blue;
+        color:blue;
         font-family:arial;
         font-size:24px;
     }
