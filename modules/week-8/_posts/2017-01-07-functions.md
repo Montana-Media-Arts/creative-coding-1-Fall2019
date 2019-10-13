@@ -15,7 +15,7 @@ Functions look like this.
 ```html
  function myFunction()
  {
- window.alert("Hi there!");
+    window.alert("Hi there!");
  }
 ```
 
@@ -27,20 +27,19 @@ What does this look like on a full page?
 
 ```html
 <html>
- <title>Functions</title>
- <head>
- <script>
- function displayFavoriteColor()
- {
- var favoriteColor = "blue";
- document.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
- }
- 
- </script>
- </head>
- <body>
- <span id="myTag">This is my favorite text</span>
- </body>
+    <title>Functions</title>
+    <head>
+        <script>
+            function displayFavoriteColor()
+            {
+                var favoriteColor = "blue";
+                document.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
+            }       
+        </script>
+    </head>
+    <body>
+        <span id="myTag">This is my favorite text</span>
+    </body>
  </html>
 ```
 
@@ -48,20 +47,19 @@ Since the function is not called, you should see just the original text. How do 
 
 ```html
 <html>
- <title>Functions</title>
- <head>
- <script>
- function displayFavoriteColor()
- {
- var favoriteColor = "blue";
- document.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
- }
- 
- </script>
- </head>
- <body onload="displayFavoriteColor();">
- <span id="myTag">This is my favorite text</span>
- </body>
+    <title>Functions</title>
+    <head>
+        <script>
+            function displayFavoriteColor()
+            {
+                var favoriteColor = "blue";
+                document.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
+            }       
+        </script>
+    </head>
+    <body onload="displayFavoriteColor();">
+        <span id="myTag">This is my favorite text</span>
+    </body>
  </html>
 ```
 
@@ -80,8 +78,8 @@ This is what it would look like.
     <script>
         function displayFavoriteColor(color)
         {
-        var favoriteColor = color;
-        document.getElementById("myTag").innerHTML = "My favorite color is " + favoriteColor;
+            var favoriteColor = color;
+            document.getElementById("myTag").innerHTML = "My favorite color is " + favoriteColor;
         }
     </script>
     </head>
