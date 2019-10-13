@@ -117,4 +117,6 @@ So, now that it is working, let's print out the values on the page. It looks lik
 
 All I did was add a **div** tag and then accessed its Id in JavaScript and put the name and phone number in that tag. 
 
+<a href="https://umontana.zoom.us/recording/share/Xc--4OkFbX5SudNXip4n9s4s_w58inGUq9PW6k2AOHqwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 Where do we go from here? Let's create a small addition game so that we can learn about **if** statements in JavaScript.

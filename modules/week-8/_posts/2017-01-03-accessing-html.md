@@ -87,3 +87,4 @@ Open your web page. It won't show anything on the page. However, if you go to th
 Next, let's talk about variables in JavaScript.
 
 <!-- video -->
+<a href="https://umontana.zoom.us/recording/share/nLX4YN7iloCtutSQ-s9sNWpHoEogIDNuBiMzFjWX5r6wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

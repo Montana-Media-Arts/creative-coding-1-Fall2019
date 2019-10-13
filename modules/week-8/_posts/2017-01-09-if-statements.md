@@ -204,4 +204,6 @@ The code should look like this.
  </html>
 ```
 
+<a href="https://umontana.zoom.us/recording/share/IEKX1NAVifV853DyeRcp9Rt5Wiq4LIdP-VBNJBtxkvWwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 Next, let's look at how we can do this more than once by using a for loop.

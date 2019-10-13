@@ -68,3 +68,4 @@ What was different this time? Do you still see the text in the body? Why?
 Go onto the next section to learn about accessing HTML and making changes there.
 
 <!-- video -->
+<a href="https://umontana.zoom.us/recording/share/6dFr-xnF8-sGaodEKtbhSmUFedPM-UYgzA0BUOw5WeewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

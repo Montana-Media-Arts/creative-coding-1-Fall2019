@@ -90,4 +90,7 @@ This is what it would look like.
  ```
 We declare the variable in the displayFavoriteColor function.  It is called **color**.  Then, we assign that variable to the favoriteColor variable in the function.  Then, in the onload event, we pass in a value.  In this case, we pass in a value of **blue** inside of single quotes.  We do this because the onload puts the function call inside of double quotes.
 
+<a href="https://umontana.zoom.us/recording/share/sz49Mo_gSf4OpcLglaydz2rrKTFj0iRYKA-yNT1OtuKwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 What about getting information from a form or something like that? Move on, and you will find out!
+
