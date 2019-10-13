@@ -34,7 +34,7 @@ It looks like this.
                 <td><input type="text" id="txtAnswer"></td>
             </tr>
             <tr>
-                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();">Submit</button></td>
             </tr>
         </table>
         <div id="finalResult"></div>
@@ -79,7 +79,7 @@ So, how do we know if it is correct? That is where **if** statements come in. Ag
                 <td><input type="text" id="txtAnswer"></td>
             </tr>
             <tr>
-                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();">Submit</button></td>
             </tr>
         </table>
         <div id="finalResult"></div>
@@ -141,7 +141,7 @@ So, how do we apply this?
                     <td><input type="text" id="txtAnswer"></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+                    <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();">Submit</button></td>
                 </tr>
             </table>
         <div id="finalResult"></div>
@@ -196,10 +196,11 @@ The code should look like this.
                     <td><input type="text" id="txtAnswer"></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+                    <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();">Submit</button></td>
                 </tr>
             </table>
         <div id="finalResult"></div>
     </body>
  </html>
 ```
+Next, let's look at how we can do this more than once by using a for loop.
