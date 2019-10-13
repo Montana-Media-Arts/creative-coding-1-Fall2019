@@ -11,12 +11,34 @@ Keep in mind that although it's handy to print information to the page, it is be
 Let's create a form like this.
 
 ```html
-`
+<html>
+    <title>Forms</title>
+    <head>
+        
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="txtName"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" id="txtPhone"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="getData();">Submit</button></td>
+            </tr>
+        </table>
+    </body>
+ </html>
+```
 
 If you put this into your web page, you will see a basic form. It won't be fancy (there is no styling, as you know). So, how do we make it function?
 
 Let's change the form now to look like this.
 
+```html
 <html>
     <title>Forms</title>
     <head>
