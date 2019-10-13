@@ -27,19 +27,19 @@ To use them in your HTML page, you can do something like this.
 
 ```html
  <html>
- <title>Variables</title>
- <head>
- <script>
- var favoriteColor = "blue";
- </script>
- </head>
- <body>
- <span id="myTag">This is my favorite text</span>
- </body>
+    <title>Variables</title>
+    <head>
+    <script>
+        var favoriteColor = "blue";
+    </script>
+    </head>
+    <body>
+        <span id="myTag">This is my favorite text</span>
+    </body>
 
- <script>
- document.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
- </script>
+    <script>
+        document.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
+    </script>
  </html>
 ```
 

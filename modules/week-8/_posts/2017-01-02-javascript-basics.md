@@ -30,15 +30,15 @@ Well, let's create a quick web page that looks like this.
 
 ```html
  <html>
- <title>First JavaScript Page!</title>
- <head>
- <script>
- window.alert("HI");
- </script>
- </head>
- <body>
- This HTML page has JavaScript on it. Did you see the popup?
- </body>
+    <title>First JavaScript Page!</title>
+    <head>
+        <script>
+            window.alert("HI");
+        </script>
+    </head>
+    <body>
+        This HTML page has JavaScript on it. Did you see the popup?
+    </body>
  </html>
 ```
 
@@ -52,15 +52,15 @@ This time change your webpage so that it looks like this.
 
 ```html
  <html>
- <title>First JavaScript Page!</title>
- <head>
- <script>
- document.write("Hi there");
- </script>
- </head>
- <body>
- This HTML page has JavaScript on it. What do you see?
- </body>
+    <title>First JavaScript Page!</title>
+    <head>
+        <script>
+            document.write("Hi there");
+        </script>
+    </head>
+    <body>
+        This HTML page has JavaScript on it. What do you see?
+    </body>
  </html>
 ```
 What was different this time? Do you still see the text in the body? Why?

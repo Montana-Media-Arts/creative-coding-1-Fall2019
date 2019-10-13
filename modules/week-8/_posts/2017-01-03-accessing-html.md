@@ -15,9 +15,9 @@ If you were to have an HTML page like the following, the JavaScript above would 
 
 ```html
  <html>
- <body>
- <span id="myTag">This is my favorite text</span>
- </body>
+    <body>
+        <span id="myTag">This is my favorite text</span>
+    </body>
  </html>
 ```
 
@@ -31,13 +31,13 @@ So, we have to do something like this.
 
 ```html
  <html>
- <body>
- <span id="myTag">This is my favorite text</span>
- </body>
+    <body>
+        <span id="myTag">This is my favorite text</span>
+    </body>
 
- <script>
- document.getElementById("myTag").innerHTML = "New Text";
- </script>
+    <script>
+        document.getElementById("myTag").innerHTML = "New Text";
+    </script>
  </html>
 ```
 
@@ -49,13 +49,13 @@ Try that. Put this into your web page.
 
 ```html
  <html>
- <body>
- <span id="myTag">This is my favorite text</span>
- </body>
+    <body>
+        <span id="myTag">This is my favorite text</span>
+    </body>
 
- <script>
- dcument.getElementById("myTag").innerHTML = "New Text";
- </script>
+    <script>
+        dcument.getElementById("myTag").innerHTML = "New Text";
+    </script>
  </html>
 ```
 
@@ -72,13 +72,13 @@ Try this now.
 
 ```html
  <html>
- <body>
- <span id="myTag">This is my favorite text</span>
- </body>
+    <body>
+        <span id="myTag">This is my favorite text</span>
+    </body>
 
- <script>
- console.log("I am in the console!");
- </script>
+    <script>
+        console.log("I am in the console!");
+    </script>
  </html>
 ```
 
