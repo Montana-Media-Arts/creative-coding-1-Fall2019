@@ -18,33 +18,33 @@ If you put this into your web page, you will see a basic form. It won't be fancy
 Let's change the form now to look like this.
 
 <html>
- <title>Variables</title>
- <head>
- <script>
- function getData()
- {
- var name = document.getElementById("txtName").value;
- var phone = document.getElementById("txtPhone").value;
+    <title>Forms</title>
+    <head>
+        <script>
+            function getData()
+            {
+                var name = document.getElementById("txtName").value;
+                var phone = document.getElementById("txtPhone").value;
 
- window.alert("name: " + name + " phone: " + phone);
- }
- </script>
- </head>
- <body>
- <table>
- <tr>
- <td>Name</td>
- <td><input type="text" id="txtName"></td>
- </tr>
- <tr>
- <td>Phone Number</td>
- <td><input type="text" id="txtPhone"></td>
- </tr>
- <tr>
- <td colspan="2"><button id="btnSubmit" onClick="getData();"></td>
- </tr>
- </table>
- </body>
+                window.alert("name: " + name + " phone: " + phone);
+            }
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="txtName"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" id="txtPhone"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="getData();"></td>
+            </tr>
+        </table>
+    </body>
  </html>
 ```
 
@@ -62,34 +62,34 @@ So, now that it is working, let's print out the values on the page. It looks lik
 
 ```html
 <html>
- <title>Variables</title>
- <head>
- <script>
- function getData()
- {
- var name = document.getElementById("txtName").value;
- var phone = document.getElementById("txtPhone").value;
+    <title>Forms</title>
+    <head>
+        <script>
+            function getData()
+            {
+                var name = document.getElementById("txtName").value;
+                var phone = document.getElementById("txtPhone").value;
 
- document.getElementById("finalResult").innerHTML = "name: " + name + " phone: " + phone;
- }
- </script>
- </head>
- <body>
- <table>
- <tr>
- <td>Name</td>
- <td><input type="text" id="txtName"></td>
- </tr>
- <tr>
- <td>Phone Number</td>
- <td><input type="text" id="txtPhone"></td>
- </tr>
- <tr>
- <td colspan="2"><button id="btnSubmit" onClick="getData();"></td>
- </tr>
- </table>
- <div id="finalResult"></div>
- </body>
+                document.getElementById("finalResult").innerHTML = "name: " + name + " phone: " + phone;
+            }
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="txtName"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" id="txtPhone"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="getData();"></td>
+            </tr>
+        </table>
+        <div id="finalResult"></div>
+    </body>
  </html>
 ```
 
