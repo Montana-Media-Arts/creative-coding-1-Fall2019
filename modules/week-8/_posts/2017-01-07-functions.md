@@ -69,4 +69,27 @@ Placing the function name in the **onload** event of the body is one way to call
 
 Now the text should be changed right when you open the page.
 
+What about parameters?
+
+This is what it would look like.
+```html
+
+<html>
+    <title>Functions</title>
+    <head>
+    <script>
+        function displayFavoriteColor(color)
+        {
+        var favoriteColor = color;
+        document.getElementById("myTag").innerHTML = "My favorite color is " + favoriteColor;
+        }
+    </script>
+    </head>
+    <body onload="displayFavoriteColor('blue');">
+        <span id="myTag">This is my favorite text</span>
+    </body>
+</html>
+ ```
+We declare the variable in the displayFavoriteColor function.  It is called **color**.  Then, we assign that variable to the favoriteColor variable in the function.  Then, in the onload event, we pass in a value.  In this case, we pass in a value of **blue** inside of single quotes.  We do this because the onload puts the function call inside of double quotes.
+
 What about getting information from a form or something like that? Move on, and you will find out!
