@@ -38,7 +38,7 @@ To use them in your HTML page, you can do something like this.
  </body>
 
  <script>
- dcument.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
+ document.getElementById("myTag").innerHTML = "Favorite Color " + favoriteColor;
  </script>
  </html>
 ```
