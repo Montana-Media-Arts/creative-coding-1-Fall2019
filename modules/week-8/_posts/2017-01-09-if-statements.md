@@ -164,28 +164,28 @@ The code should look like this.
     <title>If statements</title>
     <head>
     <script>
-    var actualAnswer;
-    function printQuestion()
-    {
-    var number1 = Math.floor(Math.random() * 10);
-    var number2 = Math.floor(Math.random() * 10);
-    actualAnswer = number1 + number2;
-    document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
-    
-    }
-    function checkAnswer()
-    {
-    var answer = document.getElementById("txtAnswer").value;
-    if(answer == actualAnswer)
-    {
-    document.getElementById("finalResult").innerHTML = "Good job!";
-    }
-    else
-    {
-    document.getElementById("finalResult").innerHTML = "Not quite!";
-    }
-    
-    }
+        var actualAnswer;
+        function printQuestion()
+        {
+            var number1 = Math.floor(Math.random() * 10);
+            var number2 = Math.floor(Math.random() * 10);
+            actualAnswer = number1 + number2;
+            document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
+            
+        }
+        function checkAnswer()
+        {
+            var answer = document.getElementById("txtAnswer").value;
+            if(answer == actualAnswer)
+            {
+                document.getElementById("finalResult").innerHTML = "Good job!";
+            }
+            else
+            {
+                document.getElementById("finalResult").innerHTML = "Not quite!";
+            }
+        
+        }
     </script>
     </head>
     <body onload="printQuestion();">
