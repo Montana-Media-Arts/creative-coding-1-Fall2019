@@ -41,7 +41,7 @@ Let's change the form now to look like this.
                 <td><input type="text" id="txtPhone"></td>
             </tr>
             <tr>
-                <td colspan="2"><button id="btnSubmit" onClick="getData();"></td>
+                <td colspan="2"><button id="btnSubmit" onClick="getData();">Submit</button></td>
             </tr>
         </table>
     </body>
@@ -85,7 +85,7 @@ So, now that it is working, let's print out the values on the page. It looks lik
                 <td><input type="text" id="txtPhone"></td>
             </tr>
             <tr>
-                <td colspan="2"><button id="btnSubmit" onClick="getData();"></td>
+                <td colspan="2"><button id="btnSubmit" onClick="getData();">Submit</button></td>
             </tr>
         </table>
         <div id="finalResult"></div>
