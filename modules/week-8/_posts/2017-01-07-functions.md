@@ -27,7 +27,7 @@ What does this look like on a full page?
 
 ```html
 <html>
- <title>Variables</title>
+ <title>Functions</title>
  <head>
  <script>
  function displayFavoriteColor()
@@ -48,7 +48,7 @@ Since the function is not called, you should see just the original text. How do 
 
 ```html
 <html>
- <title>Variables</title>
+ <title>Functions</title>
  <head>
  <script>
  function displayFavoriteColor()
