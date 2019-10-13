@@ -12,35 +12,33 @@ It looks like this.
 
 ```html
 <html>
- <title>If statements</title>
- <head>
- <script>
- function printQuestion()
- {
- document.getElementById("theQuestion").innerHTML = "What is 3+5?";
- 
- }
- function checkAnswer()
- {
- var answer = document.getElementById("txtAnswer").value;
- 
- document.getElementById("finalResult").innerHTML = "Your answer is " + answer;
- }
- </script>
- </head>
- <body onload="printQuestion();">
- <div id="theQuestion"></div>
- <table>
- <tr>
- <td>Your answer</td>
- <td><input type="text" id="txtAnswer"></td>
- </tr>
- <tr>
- <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
- </tr>
- </table>
- <div id="finalResult"></div>
- </body>
+    <title>If statements</title>
+    <head>
+        <script>
+            function printQuestion()
+            {
+                document.getElementById("theQuestion").innerHTML = "What is 3+5?"; 
+            }
+            function checkAnswer()
+            {
+                var answer = document.getElementById("txtAnswer").value;
+                document.getElementById("finalResult").innerHTML = "Your answer is " + answer;
+            }
+        </script>
+    </head>
+    <body onload="printQuestion();">
+        <div id="theQuestion"></div>
+        <table>
+            <tr>
+                <td>Your answer</td>
+                <td><input type="text" id="txtAnswer"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+            </tr>
+        </table>
+        <div id="finalResult"></div>
+    </body>
  </html>
 ```
 
@@ -50,42 +48,42 @@ So, how do we know if it is correct? That is where **if** statements come in. Ag
 
 ```html
 <html>
- <title>If statements</title>
- <head>
- <script>
- function printQuestion()
- {
- document.getElementById("theQuestion").innerHTML = "What is 3+5?";
- 
- }
- function checkAnswer()
- {
- var answer = document.getElementById("txtAnswer").value;
- if(answer == 8)
- {
- document.getElementById("finalResult").innerHTML = "Good job!";
- }
- else
- {
- document.getElementById("finalResult").innerHTML = "Not quite!";
- }
- 
- }
- </script>
- </head>
- <body onload="printQuestion();">
- <div id="theQuestion"></div>
- <table>
- <tr>
- <td>Your answer</td>
- <td><input type="text" id="txtAnswer"></td>
- </tr>
- <tr>
- <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
- </tr>
- </table>
- <div id="finalResult"></div>
- </body>
+    <title>If statements</title>
+    <head>
+        <script>
+        function printQuestion()
+        {
+            document.getElementById("theQuestion").innerHTML = "What is 3+5?";
+        
+        }
+        function checkAnswer()
+        {
+            var answer = document.getElementById("txtAnswer").value;
+            if(answer == 8)
+            {
+                document.getElementById("finalResult").innerHTML = "Good job!";
+            }
+            else
+            {
+                document.getElementById("finalResult").innerHTML = "Not quite!";
+            }
+        
+        }
+        </script>
+    </head>
+    <body onload="printQuestion();">
+        <div id="theQuestion"></div>
+        <table>
+            <tr>
+                <td>Your answer</td>
+                <td><input type="text" id="txtAnswer"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+            </tr>
+        </table>
+        <div id="finalResult"></div>
+    </body>
  </html>
 ```
 
@@ -109,46 +107,45 @@ So, how do we apply this?
 
 ```html
 <html>
- <title>If statements</title>
- <head>
- <script>
- var actualAnswer;
- function printQuestion()
- {
- var number1 = Math.floor(Math.random() * 10);
- var number2 = Math.floor(Math.random() * 10);
- actualAnswer = number1 + number2;
- document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
- 
- }
- function checkAnswer()
- {
- var answer = document.getElementById("txtAnswer").value;
- if(answer == 8)
- {
- document.getElementById("finalResult").innerHTML = "Good job!";
- }
- else
- {
- document.getElementById("finalResult").innerHTML = "Not quite!";
- }
- 
- }
- </script>
- </head>
- <body onload="printQuestion();">
- <div id="theQuestion"></div>
- <table>
- <tr>
- <td>Your answer</td>
- <td><input type="text" id="txtAnswer"></td>
- </tr>
- <tr>
- <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
- </tr>
- </table>
- <div id="finalResult"></div>
- </body>
+    <title>If statements</title>
+    <head>
+        <script>
+        var actualAnswer;
+        function printQuestion()
+        {
+            var number1 = Math.floor(Math.random() * 10);
+            var number2 = Math.floor(Math.random() * 10);
+            actualAnswer = number1 + number2;
+            document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
+        
+        }
+        function checkAnswer()
+        {
+            var answer = document.getElementById("txtAnswer").value;
+            if(answer == 8)
+            {
+                document.getElementById("finalResult").innerHTML = "Good job!";
+            }
+            else
+            {
+                document.getElementById("finalResult").innerHTML = "Not quite!";
+            }      
+        }
+        </script>
+    </head>
+    <body onload="printQuestion();">
+        <div id="theQuestion"></div>
+            <table>
+                <tr>
+                    <td>Your answer</td>
+                    <td><input type="text" id="txtAnswer"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+                </tr>
+            </table>
+        <div id="finalResult"></div>
+    </body>
  </html>
 ```
 
@@ -164,32 +161,45 @@ The code should look like this.
 
 ```html
 <html>
- <title>If statements</title>
- <head>
- <script>
- var actualAnswer;
- function printQuestion()
- {
- var number1 = Math.floor(Math.random() * 10);
- var number2 = Math.floor(Math.random() * 10);
- actualAnswer = number1 + number2;
- document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
- 
- }
- function checkAnswer()
- {
- var answer = document.getElementById("txtAnswer").value;
- if(answer == actualAnswer)
- {
- document.getElementById("finalResult").innerHTML = "Good job!";
- }
- else
- {
- document.getElementById("finalResult").innerHTML = "Not quite!";
- }
- 
- }
- </script>
- </head>
- <body onload="printQuestion();">
- <div id="theQuestion"></div>
+    <title>If statements</title>
+    <head>
+    <script>
+    var actualAnswer;
+    function printQuestion()
+    {
+    var number1 = Math.floor(Math.random() * 10);
+    var number2 = Math.floor(Math.random() * 10);
+    actualAnswer = number1 + number2;
+    document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
+    
+    }
+    function checkAnswer()
+    {
+    var answer = document.getElementById("txtAnswer").value;
+    if(answer == actualAnswer)
+    {
+    document.getElementById("finalResult").innerHTML = "Good job!";
+    }
+    else
+    {
+    document.getElementById("finalResult").innerHTML = "Not quite!";
+    }
+    
+    }
+    </script>
+    </head>
+    <body onload="printQuestion();">
+        <div id="theQuestion"></div>
+             <table>
+                <tr>
+                    <td>Your answer</td>
+                    <td><input type="text" id="txtAnswer"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();"></td>
+                </tr>
+            </table>
+        <div id="finalResult"></div>
+    </body>
+ </html>
+```
