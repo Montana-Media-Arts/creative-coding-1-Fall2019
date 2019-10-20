@@ -14,17 +14,17 @@ The first way is by using the web editor on the p5js.org website.  Look for the 
 
 ![Start Creating](../imgs/start.png "Start Creating")
 
-Then, you can create sketches directly in the web, which is fantastic!  However, you need to be online for this to work.
+Then, you can create sketches directly on the web, which is fantastic!  However, you need to be online for this to work.
 
-Here is what the editor looks like.
+Here is an image of the Editor.
 
 ![Editor](../imgs/editor.png "Editor")
 
-If you click the start button, you won't see much but a 400x400 grey colored square.  If you change the numbers, you will see a different sized square if you change the create canvas numbers **Try it!**.  
+If you click the start button, you won't see much but a 400x400 grey colored square.  If you change the numbers, you will see a different sized square if you alter the create canvas numbers **Try it!**.  
 
 If you change the number in the background, it will change the greyscale color.  You can put RGB colors in there too.  **Try it!**
 
-What other options do we have though?  
+What other options do we have, though?  
 
 ## CDN
 
@@ -34,7 +34,7 @@ Remember when we used a CDN with Bootstrap?  You can do the same thing here.  It
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
 ```
 
-How does this work in an html page?
+How does this work on an HTML page?
 
 ```html
 <html>
@@ -49,9 +49,9 @@ How does this work in an html page?
 
 Now, you may be saying, wait...from where did that sketch.js file come? And where is it located?
 
-Here's the deal.  The sketch.js file is your file and it's located in the same director or folder as our html page.  It allows us to put all our p5.js code in a file we create and then we don't have to change our html page again.  It just makes things a little cleaner to read.
+Here's the deal.  The sketch.js file is your file and located in the same directory or folder as our HTML page.  It allows us to put all our p5.js code in a file we create, and then we don't have to change our HTML page again.  It just makes things a little cleaner to read.
 
-What might that file look like?
+The file looks like this.
 
 ```html
 function setup() {
@@ -67,9 +67,9 @@ Look familiar?  It should! It is the same code as what we say in the web editor.
 
 ## Offline
 
-We can download the library and then reference it.  What does that look like?
+We can download the library and then reference it.
 
-You can go to the download page and choose from a couple of options.
+Go to the download page and choose from a couple of options.
 
 [Download page](https://p5js.org/download/)
 
@@ -77,10 +77,10 @@ If you look, you should see this.
 
 ![Download](../imgs/download.png "Download")
 
-You have a couple of options, but if you right-click and download the p5.js or p5.min.js and then put that into a script tag, you will have an offline solution.  Here is what that looks like if you save the file in the same directory in the same place as your html file.
+You have a couple of options, but if you right-click and download the p5.js or p5.min.js and then put that into a script tag, you will have an offline solution.  Make sure you save the file in the same directory as your HTML file.
 
 ```html
-<script src="p5.min.js"></script>
+  <script src="p5.min.js"></script>
 ```
 
-Where do we go from here? Now, that we have our initial set up done, we can focus on the setup and the draw.
+Where do we go from here? Now that we have our initial set up done, we can focus on the setup and the draw.

@@ -6,4 +6,4 @@ jotted: false
 
 # Weekly Conclusions
 
-Please, be careful with the content for this week. Arrays will be useful for the remainder of the semester and are a requirement for your homework next week.
+Great job getting all of this implemented! I hope it wasn't too bad and maybe even a little fun.  Did you see the similarities between this and JavaScript?  I hope so as they are the same in so many ways!  We will continue with more next week.

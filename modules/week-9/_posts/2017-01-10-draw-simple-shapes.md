@@ -6,7 +6,7 @@ jotted: true
 
 # Draw Simple Shapes
 
-Drawing simple shapes is the first thing that p5.js allows us to do easily.  What does that look like?
+Drawing simple shapes is the first thing that p5.js allows us to do quickly.  One example looks like this.
 
 ## circle
 
@@ -30,7 +30,7 @@ How does this work?
 3. 40 is the y location on the page
 4. 50 is the diameter of the circle
 
-One thing in which to mindful, the x and y origin is in the upper left hand corner.  Any guesses why? It's because we don't like to negative numbers. It's easier to move to the right positively and down positively.  Then, as we subtract, we move left and up respectively.
+One thing in which to mindful, the x and y origin is in the upper left-hand corner.  Any guesses why? It's because we don't like negative numbers. It's easier to move to the right positively and down positively.  Then, as we subtract, we move left and up, respectively.
 
 ## square
 
@@ -45,7 +45,7 @@ function draw() {
 }
 ```
 
-This time square is the name of the function.  30 is still the x, 40 is the y location and the 50 represents the width and height since they are the same.
+This time square is the name of the function.  30 is still the x, 40 is the y location, and the 50 represents the width and height since they are the same.
 
 Give it a try!
 
@@ -62,7 +62,7 @@ function draw() {
 }
 ```
 
-Notice the difference with the ellipse as it allows us to create a different width and height. If they were the same, it would be a circle.
+Notice the difference with the ellipse as it allows us to create a different width and height. If the height and width were the same, it would be a circle.
 
 ## rect()
 
@@ -77,7 +77,7 @@ function draw() {
 }
 ```
 
-Same for the rect function.  If the last two parameters are the same, we would get a square, but if they are different, we will get a rectangle.
+Same for the rect function.  If the last two parameters are the same, we will get a square, but if they are different, we will get a rectangle.
 
 ## triangle()
 
@@ -91,6 +91,6 @@ function draw() {
   triangle(30, 75, 58, 20, 86, 75);
 }
 ```
-The first two parameters represent the first point which is the bottom point in this case, then the second two parameters are the second point which is the top point and then the last two parameters represent the third point or the bottom right point in this triangle.  
+The first two parameters represent the first point, which is the bottom point; in this case, then the second two parameters are the second point, which is the top point, and then the last two parameters represent the third point or the bottom right point in this triangle.  
 
-There are a number of other simple shapes, such as point, line, and quad.
+There are several other simple shapes, such as point, line, and quad.

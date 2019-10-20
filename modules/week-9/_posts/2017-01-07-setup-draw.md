@@ -6,11 +6,11 @@ jotted: true
 
 # Setup and Draw
 
-These are the two main functions in p5.js.  They are the most important and are built into this library.
+These are the two main functions in p5.js.  They are the most critical functions and built into this library.
 
 ## function setup()
 
-The setup function is the first function called and is called only once.  createCanvas is another built-in function that sets up the main window that allows us to draw.
+The setup function is the first function called and called only once.  createCanvas is another built-in function that sets up the main window that allows us to draw.
 
 It looks like this.
 
@@ -18,11 +18,11 @@ It looks like this.
     createCanvas(300,500);
 ```
 
-There are some important things to notice. Hopefully, the look isn't  too mysterious. **createCanvas** is the name of the function.  We know it's a function because of the **()** and the first **parameter**, **300** is the width, while the second parameter, **500** is the height and then, don't forget the **;** semicolon.
+There are some essential things to notice. Hopefully, the look isn't too mysterious. **createCanvas** is the name of the function.  We know it's a function because of the **()** and the first **parameter**, **300** is the width, while the second parameter, **500**, is the height and then, don't forget the **;** semicolon.
 
-**Note** Remember a parameter is something that is passed into a function - some value.  The semicolon is needed to end the statement.
+**Note** Remember a parameter is something that passed into a function - some value.  The semicolon is needed to end the statement.
 
-To make the canvas appear, add the createCanvas to setup function.  It looks like this.
+To make the canvas appear, add the createCanvas to the setup function.  It looks like this.
 
 ```html
     function setup()
@@ -35,11 +35,11 @@ Why do we put the createCanvas function in the setup? We only want to create the
 
 Give this a try and see what it looks like.
 
-Did you get a canvas appear in your web browser? Good!
+Did you get a canvas to appear in your web browser? Good!
 
 ## function draw()
 
-What about the draw function?  What makes it so special?  We know that setup is called only once when the script runs, but with draw, it is called continously.
+What about the draw function?  What makes it so unique?  We know that setup is called only once when the script while the draw function called continuously.
 
 What have we seen so far? We have done this.
 
@@ -50,7 +50,7 @@ function draw()
 }
 ```
 
-If the background is called repeatedly, then the background is called over and over.  How can we tell though? Remember when talked about writing information to the screen?  We can write to the console.log to prove that the draw is called multiple times.  Let's try it.
+Calling the background function repeatedly, then the user sees the grey background.  How can we tell, though? Remember when talked about writing information to the screen?  We can write to the console.log to prove that the draw is called multiple times.  Let's try it.
 
 ```html
 function draw()
@@ -64,4 +64,4 @@ Open your Developer Options and see what it says in the console?
 
 What did you see?
 
-Now, let's actually do something fun on the screen.
+Now, let's do something fun on the screen.
