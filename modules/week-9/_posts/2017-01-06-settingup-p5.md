@@ -34,12 +34,18 @@ Remember when we used a CDN with Bootstrap?  You can do the same thing here.  It
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
 ```
 
+**Remember from the video that this one doesn't work.  So, use the one below instead.
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+```
+
 How does this work on an HTML page?
 
 ```html
 <html>
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
     <script src="sketch.js"></script>
   </head>
   <body>
