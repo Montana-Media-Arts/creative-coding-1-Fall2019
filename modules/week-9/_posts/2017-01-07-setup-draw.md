@@ -20,6 +20,8 @@ It looks like this.
 
 There are some important things to notice. Hopefully, the look isn't  too mysterious. **createCanvas** is the name of the function.  We know it's a function because of the **()** and the first **parameter**, **300** is the width, while the second parameter, **500** is the height and then, don't forget the **;** semicolon.
 
+**Note** Remember a parameter is something that is passed into a function - some value.  The semicolon is needed to end the statement.
+
 To make the canvas appear, add the createCanvas to setup function.  It looks like this.
 
 ```html
