@@ -90,3 +90,5 @@ You have a couple of options, but if you right-click and download the p5.js or p
 ```
 
 Where do we go from here? Now that we have our initial set up done, we can focus on the setup and the draw.
+
+<a href="https://umontana.zoom.us/recording/share/Kx1pA-e-otIR5mLK84elvqS9mAD7yLHP-JtDf-Qoax6wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

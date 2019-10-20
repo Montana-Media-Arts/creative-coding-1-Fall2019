@@ -36,3 +36,5 @@ function draw() {
 ```
 
 Now, you see that the text is much larger and readable, well at least for me since I cannot see that well. Okay, now you are ready for your homework!
+
+<a href="https://umontana.zoom.us/recording/share/JevNIYinPt58oR2CcRLJuBQc6C6P1TDxM8zzIjM4dt-wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

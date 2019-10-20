@@ -64,4 +64,6 @@ Open your Developer Options and see what it says in the console?
 
 What did you see?
 
+<a href="https://umontana.zoom.us/recording/share/e-mXzteNjuEYz2qzMIVSFjwrqsK4ROlBOnYvfhWc7XCwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+
 Now, let's do something fun on the screen.

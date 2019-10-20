@@ -94,3 +94,5 @@ function draw() {
 The first two parameters represent the first point, which is the bottom point; in this case, then the second two parameters are the second point, which is the top point, and then the last two parameters represent the third point or the bottom right point in this triangle.  
 
 There are several other simple shapes, such as point, line, and quad.
+
+<a href="https://umontana.zoom.us/recording/share/IUTwNHyCPUBLZ5qcv7O5Yl7On_u8oQiao-DbQb4vlmewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
