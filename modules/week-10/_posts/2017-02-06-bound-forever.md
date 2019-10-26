@@ -122,6 +122,7 @@ function draw()
      x += movement;
 }
 ```
+
 Doesn't that make you feel better? It makes me feel better.  Now the duplicated code is gone.  We want to reduce duplicated code so that if we need to make a change, we only have to change it one place.
 
 If you look at the if statement with the OR in it, only one of those conditions has to be true and then movement is multiplied by -1.  If it's going to the right, it will be multiplied by -1 to make 7 become -7.  If it's moving to the left and we get to zero or below zero, movement is again multiplied by negative 1 and now movement goes from -7 to 7.  Pretty cool right?
