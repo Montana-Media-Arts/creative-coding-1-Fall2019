@@ -142,3 +142,9 @@ function draw()
 ```
 
 If you look at our random statement, I now add at least 1 to it.  So, if I get a zero, it will be assigned a 1 and now our range is between 1 and 10.  Try and see if it works!
+
+There are so many more math functions at your disposal in p5.js.  Here is the link to them.  Try them out.
+
+[p5.js Math Functions](https://p5js.org/reference/#group-Math)
+
+With that, let's talk about homework for this week.
