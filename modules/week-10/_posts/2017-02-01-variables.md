@@ -6,7 +6,7 @@ jotted: true
 
 # Variables
 
-wait a minute, we have already done this right?  Yes! We did thsi in JavaScript.  Since p5.js is just a JavaScript library we can create variables just the same.
+Wait a minute; we have already done this, right?  Yes! We did this in JavaScript.  Since p5.js is just a JavaScript library, we can create variables just the same.
 
 For example, they might look like this.
 
@@ -24,7 +24,7 @@ For example, they might look like this.
     }
 ```
 
-What do you see?  Well you won't see anything on the screen, but you will see the number in your console down below.
+What do you see?  Well, you won't see anything on the screen, but you will see the number in your console down below.
 
 What if we want to do something with our variables?  We can add to our variables like this.
 
@@ -49,7 +49,7 @@ Did you notice the change to **myFavoriteNumber**?  It gets incremented by 1.  I
     myFavoriteNumber = myFavoriteNumber + 1;
 ```
 
-They both mean the same thing. This is what is happening.  One is added to the previous value of myFavoriteNumber and then it is assigned back to myFavoriteNumber.  There are three ways in which we can do the same thing. Here is what they look like.
+They both mean the same thing. First, the value of one gets added to the previous value of myFavoriteNumber, and then it is assigned back to myFavoriteNumber.  There are three ways in which we can do the same thing. Here are the different choices.
 
 ```html
     myFavoriteNumber++;
@@ -60,10 +60,9 @@ They both mean the same thing. This is what is happening.  One is added to the p
 They all mean the same thing.  Keep in mind that **myFavoriteNumber++** only happens when incrementing by 1.  If you want to increase by another number, you can only use the latter two.
 
 ## Scope
+Another thing to notice is how I declare **var myFavoriteNumber** above the setup() function.  That means it can be seen in the setup and draw functions as well as any other methods that we might define.
 
-Another thing to notice is that **var myFavoriteNumber** is declared above the setup() function.  That means it can be seen in the setup and draw functions as well as any other methods that we might define.
-
-If we declare a variable inside of a method like this.
+Declaring a variable inside of a method looks like this.
 
 ```html
     
@@ -85,9 +84,9 @@ You can also declare variables in loops like this.
     }
 ```
 
-What this means is that the variable **i** will exist in the for loop but when it terminates the variable goes awy.
+What this means is that the variable **i** will exist in the for loop, but when it terminates, the variable goes away.
 
-Did you notice the difference between create a variable like myFavoriteNumber compared to myFavoriteColor.  The first one contained a number while the second contains a string.  This is important when declaring a number you do not need double-quotes **""** while if you declare a string, it needs to be in double-quotes.
+Did you notice the difference between creating a variable like myFavoriteNumber compared to myFavoriteColor?  The first one contains a number while the second contains a string.  These differences are important to understand.  When declaring a number, you do not need double-quotes **""**. Conversely, if you declare a string, it needs to be in double-quotes.
 
 ```html
     var name = "John Cena";
@@ -115,9 +114,9 @@ function draw()
 }
 ```
 
-As you can see, the varibles **red**, **green**, and **blue** are **declared** at the top and then used in the **background** function in the draw function.  
+As you can see, the variables **red**, **green**, and **blue** are **declared** at the top and then used in the **background** function in the draw function.  
 
-If we change the variables in draw like we did earlier to our favorite number we should see something really interesting.  Try this sketch.
+If we change the variables in the draw function as we did earlier to our favorite number, we should see something exciting.  Try this sketch.
 
 ```html
 

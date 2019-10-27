@@ -39,7 +39,7 @@ This where we come back to our **conditional** statements.
 
 What was the one that we used the most in our math game? I hope you don't have bad dreams about that still.
 
-If we think about it in English, we want the circles to move until we hit the right side of the wall.  Where is the right side of the wall?  If we look at the createCanvas, it tells us.
+If we think about it in English, we want the circles to move until we hit the right side of the wall.  Where is the right side of the screen border?  If we look at the createCanvas, it tells us.
 
 It is the width.  Which one is that?  Is it the **800** or the **600**?
 
@@ -76,7 +76,7 @@ function draw()
 }
 ```
 
-What happened above? I created an if statement and said, if it is less than 800 than continue moving, otherwise, the if statement will be false and the x will no longer get bigger.  If you want to make it go faster then, do this.  Keep in mind that **<** sign is called a relational operator. The opposite is **>** and stands for greater than.
+What happened above? I created an if statement and said if it is less than 800 than continue moving; otherwise, the if statement will be false, and the x will no longer get bigger.  If you want to make it go faster then, do this.  Keep in mind that **<** sign is called a relational operator. The opposite is **>** and stands for "greater than."
 
 ```html
 
@@ -107,7 +107,7 @@ function draw()
 }
 ```
 
-I could have done this too right?
+I could have done this, too, right?
 
 ```html
 
@@ -171,9 +171,9 @@ function draw()
 
 How about now?  Why or why not? 
 
-Remember in the preceding if statement, it has to equal exactly 800 for it to stop. Otherwise, it will continue.  The **==** is the equality operator whereas the **=** is the assignment operator.  Be careful of that one!
+Remember, in the preceding if statement, it has to equal precisely 800 for it to stop. Otherwise, it will continue.  The **==** is the equality operator, whereas the **=** is the assignment operator.  Be careful of that one!
 
-But I do want the circle to move all the way to the end. If stay strictly less than, then it won't get there.  So, I will combine both the two together like this using another relational operator **<=** which means less than or equal to.  The opposite being **>=** or greater than or equal to.
+But I do want the circle to move to the end. If the code remains strictly less than, then it won't get to the end of the screen.  Fixing this problem requires combining both the relational and equality operator together.  Now the symbols look like this **<=**.  The two symbols together mean "less than or equal to."  The opposite being **>=** or "greater than or equal to."
 
 ```html
 
@@ -204,4 +204,3 @@ function draw()
 }
 ```
 Now it works.  Whew!
-

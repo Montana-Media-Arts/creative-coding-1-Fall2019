@@ -12,7 +12,7 @@ So, what is the Math function that we used before?  Random right?  When we wante
     number1 = Math.floor(Math.random() * 10);
 ```
 
-Remember the Math.random() returns a number between 0 inclusive and 1 exclusive. That means that it goes all way up to .99999999 but never gets to 1.  That is why we multiply it by some number and then use another Math function called floor which returns the largest integer that is less than or equal to the the numbrer returned.  
+Remember, the Math.random() returns a number between 0 inclusive and 1 exclusive. That means that it goes all way up to .99999999 but never gets to 1.  That is why we multiply it by some number and then use another Math function called floor, which returns the largest integer that is less than or equal to the number returned.  
 
 For example, if you have the following.
 
@@ -30,7 +30,7 @@ If you the following.
 
 You will also see 3.
 
-So, we are getting a random number between 0 and 1 multiplying the number by 10 and then we get the floor to return an integer that will become our random number.
+So, we are getting a random number between 0 and 1 multiplying the number by ten, and then we get the floor to return an integer that will become our random number.
 
 How can we use it in our previous code?
 
@@ -69,7 +69,7 @@ function draw()
 }
 ```
 
-This time though, let's assign movement a random value.  In order to do that, we are going to assign it in the setup function.  Now the code looks like this.
+This time though, let's assign movement a random value.  To do that, we are going to assign it inside the setup function.  Now the code looks like this.
 
 ```html
 
@@ -104,7 +104,7 @@ function draw()
 }
 ```
 
-Now, movement will be a variable speed between 0 and 9 because Math.random could return 0.  Then, if we multiply by 10 it will still be zero.  Then, if we take the floor of that, it will still be zero. Uh oh. What if I want to have at least some speed?
+Now, movement will be a variable speed between 0 and 9 because Math.random could return 0.  Then, if we multiply by 10, it will still be zero.  Then, if we take the floor of that, it will always be zero. Uh oh. What if I want to have at least some speed?
 
 Let's change our code one more time.
 
@@ -141,7 +141,7 @@ function draw()
 }
 ```
 
-If you look at our random statement, I now add at least 1 to it.  So, if I get a zero, it will be assigned a 1 and now our range is between 1 and 10.  Try and see if it works!
+If you look at our random statement, I now add at least 1 to it.  So, if I get a zero, it will be assigned a 1, and now our range is between 1 and 10.  Try and see if it works!
 
 There are so many more math functions at your disposal in p5.js.  Here is the link to them.  Try them out.
 
