@@ -182,3 +182,5 @@ I changed the if statement so that the body only runs when x is equal to or beyo
 Multiplying movement by -1 is where the magic happens. After movement is multiplied by -1, the movement variable gets added back to the x variable.  However, now, movement is -7, and movement doesn't get multiplied by -1 again because x is not greater or equal to 800.
 
 Cool right?  However, what about the other side?  Do you think you can do it?
+
+<a href="https://umontana.zoom.us/recording/share/THnkqC-qVmVlY8bvZrnOvEYncfCfuxJcfKav8morgmawIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

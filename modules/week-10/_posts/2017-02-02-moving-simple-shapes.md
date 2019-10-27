@@ -143,3 +143,5 @@ What do you see?  I kept the second circle in the same location, reduced the siz
 There you go!  Okay, so if you let it run long enough, they should cruise right off the screen.  But what if we don't want that?  What if I say, make it so that it stops at the edge.  What are you doing to do?
 
 Let's go to the next section and find out!
+
+<a href="https://umontana.zoom.us/recording/share/fI8RzLIWb3y3d1jeU4i9x2pieYUS2XDEQAYgu4NXf0ewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

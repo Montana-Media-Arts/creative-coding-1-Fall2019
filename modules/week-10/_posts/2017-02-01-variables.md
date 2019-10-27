@@ -148,3 +148,5 @@ function draw()
 ```
 
 Did you see something change?  Cool huh?  Let's continue.
+
+<a href="https://umontana.zoom.us/recording/share/PZlDzWSN5QEWJeGrbYz1XnZTPBFOlfmqgQ-wc2bN3XSwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
