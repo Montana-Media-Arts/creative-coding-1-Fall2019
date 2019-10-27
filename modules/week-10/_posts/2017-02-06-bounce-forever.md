@@ -133,7 +133,7 @@ function draw()
 
 Doesn't that make you feel better? It makes me feel better.  Now the duplicated code is gone.  We want to reduce duplicated code so that if we need to make a change, we only have to change it in one place.
 
-If you look at the if statement with the OR symbol in it, only one of those conditions must be true.  When meeting one of the conditions, then movement is multiplied by -1.  If it's going to the right, it will be multiplied by -1 to make 7 become -7.  If it's moving to the left and we get to zero or below zero, multiplying negative one to movement causes the value to go from -7 to 7.  Pretty cool, right?
+If you look at the if statement with the OR symbol in it, only one of those conditions must be true.  When meeting one of the conditions, then movement is multiplied by -1.  If it's going to the right, it will be multiplied by -1 to make 13 become -13.  If it's moving to the left and we get to zero or below zero, multiplying negative one to movement causes the value to go from -13 to 13.  Pretty cool, right?
 
 The circles should go back and forth forever.  If you want only the edge of the circles to hit the screen border, change the if statement.  Do you think you can figure that part out?  I think you can!
 
