@@ -12,9 +12,9 @@ Let's look at this example.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -27,7 +27,7 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
     circle(x,y,diameter);
 }
 ```
@@ -39,9 +39,9 @@ Glad you asked!  Let's make a small change and see what happens.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -54,7 +54,7 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
     circle(x,y,diameter);
     x++;
 }
@@ -72,9 +72,9 @@ That is crazy!  We just made a simple shape move.  What if we added a second one
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -87,7 +87,7 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
     circle(x,y,diameter);
     circle(x,y,diameter);
     x++;
@@ -102,9 +102,9 @@ Well, technically, you do, but you only get to see one because the other one is 
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -117,9 +117,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     x++;
 }

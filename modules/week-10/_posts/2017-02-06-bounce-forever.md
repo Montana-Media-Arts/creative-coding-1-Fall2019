@@ -12,15 +12,15 @@ Let's start where we left off.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
 var diameter = 50;
 
-var movement = 7;
+var movement = 13;
 
 function setup()
 {
@@ -30,9 +30,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x >= 800)
     {
@@ -49,15 +50,15 @@ So, we could do what we did before.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
 var diameter = 50;
 
-var movement = 7;
+var movement = 13;
 
 function setup()
 {
@@ -67,40 +68,40 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x >= 800)
     {
-       movement *= -1;
+       movement*=-1;
     }
     if(x <= 0)
     {
         movement *= -1;
     }
-    
      x += movement;
 }
 ```
 
 Does it work?  Yeah!  Wait, though. Something feels a little off.  See how there is a duplicated section of code?  We don't want that.  How do we make that better?
 
-We are going to introduce what is called **Logical Operators**.  There are three of them, **AND**, **OR**, and **NOT**.  In code, they look like this **&&** for AND, **||** for OR and **!** for NOT.
+We are going to introduce what is called **Logical Operators**.  There are three of them, **AND**, **OR**, and **NOT**.  In code, they look like this **&&** for AND, **||** for OR and **!** for NOT. Remember NOT?  We did that earlier. Yes!
 
 To combine the previous if statements, we have to think about this in English again.  When do we need movement to switch directions?  We can say if the circle is greater than or equal to 800 or if the circle is less than or equal to zero.  Wait!  Did you see the keyword?  **OR**.  Since we know what symbols to use, we can write the code above to look like this.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
 var diameter = 50;
 
-var movement = 7;
+var movement = 13;
 
 function setup()
 {
@@ -110,9 +111,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x >= 800 || x <= 0)
     {

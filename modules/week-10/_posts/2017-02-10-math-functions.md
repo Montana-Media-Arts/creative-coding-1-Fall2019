@@ -17,7 +17,7 @@ Remember, the Math.random() returns a number between 0 inclusive and 1 exclusive
 For example, if you have the following.
 
 ```html
-    Console.log(Math.floor(3.03));
+    console.log(Math.floor(3.03));
 ```
 
 You will see 3.
@@ -25,7 +25,7 @@ You will see 3.
 If you the following.
 
 ```html
-    Console.log(Math.floor(3.94));
+    console.log(Math.floor(3.94));
 ```
 
 You will also see 3.
@@ -38,15 +38,15 @@ Let's start with where we left off.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
 var diameter = 50;
 
-var movement = 7;
+var movement = 13;
 
 function setup()
 {
@@ -56,9 +56,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x >= 800 || x <= 0)
     {
@@ -73,9 +74,9 @@ This time though, let's assign movement a random value.  To do that, we are goin
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -91,9 +92,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x >= 800 || x <= 0)
     {
@@ -104,15 +106,15 @@ function draw()
 }
 ```
 
-Now, movement will be a variable speed between 0 and 9 because Math.random could return 0.  Then, if we multiply by 10, it will still be zero.  Then, if we take the floor of that, it will always be zero. Uh oh. What if I want to have at least some speed?
+Now, movement will be a variable speed.  Refresh the page a few times and see if the circles move at different speeds.  It returns speeds between 0 and 9 because Math.random could return 0.  Then, if we multiply by 10, it will still be zero.  Then, if we take the floor of that, it will always be zero. Uh oh. What if I want to have at least some speed?
 
 Let's change our code one more time.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -128,9 +130,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x >= 800 || x <= 0)
     {

@@ -20,7 +20,7 @@ For example, they might look like this.
     function draw()
     {
         background(120);
-        println(myFavoriteNumber);
+        console.log(myFavoriteNumber);
     }
 ```
 
@@ -39,7 +39,7 @@ What if we want to do something with our variables?  We can add to our variables
     {
         background(120);
         myFavoriteNumber++;
-        println(myFavoriteNumber);
+        console.log(myFavoriteNumber);
     }
 ```
 
@@ -80,7 +80,7 @@ You can also declare variables in loops like this.
 ```html
     for(var i = 0; i < 5; i++)
     {
-        println(i);
+        console.log(i);
     }
 ```
 
@@ -97,32 +97,29 @@ What would a variable look like in our main sketch?
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
-
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 function setup()
 {
-
     createCanvas(800,600);
 }
 
 function draw()
 {
-    background(red,green,blue);
-
+    background(redColor,greenColor,blueColor);
 }
 ```
 
-As you can see, the variables **red**, **green**, and **blue** are **declared** at the top and then used in the **background** function in the draw function.  
+As you can see, the variables **redColor**, **greenColor**, and **blueColor** are **declared** at the top and then used in the **background** function in the draw function.  
 
 If we change the variables in the draw function as we did earlier to our favorite number, we should see something exciting.  Try this sketch.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 function setup()
 {
@@ -132,10 +129,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
-    red++;
-    green++;
-    blue++;
+    background(redColor,greenColor,blueColor);
+    redColor++;
+    greenColor++;
+    blueColor++;
 }
 ```
 

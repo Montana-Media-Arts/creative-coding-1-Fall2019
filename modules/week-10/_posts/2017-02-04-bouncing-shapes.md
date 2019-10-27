@@ -12,9 +12,9 @@ Let's start where we left off.
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -27,15 +27,15 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x <= 800)
     {
-        x+=7;
+        x+=13;
     }
-    
 }
 ```
 
@@ -45,9 +45,9 @@ So, what if we did this?
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
@@ -60,19 +60,19 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x <= 800)
     {
-        x+=7;
+        x+=13;
     }
     else
     {
-        x-=7;
+        x-=13;
     }
-    
 }
 ```
 
@@ -82,15 +82,15 @@ Instead of trying to add or subtract directly, what if we added all the time.  L
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
 var diameter = 50;
 
-var movement = 7;
+var movement = 13;
 
 function setup()
 {
@@ -100,9 +100,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x <= 800)
     {
@@ -117,15 +118,15 @@ If you run this code, it will work just as did before, where the circles will co
 
 ```html
 
-var red = 123;
-var green = 39;
-var blue = 21;
+var redColor = 123;
+var greenColor = 39;
+var blueColor = 21;
 
 var x = 100;
 var y = 200;
 var diameter = 50;
 
-var movement = 7;
+var movement = 13;
 
 function setup()
 {
@@ -135,9 +136,10 @@ function setup()
 
 function draw()
 {
-    background(red,green,blue);
+    background(redColor,greenColor,blueColor);
+    fill(255);
     circle(x,y,diameter);
-    fill(red,green,blue);
+    fill(redColor,greenColor,blueColor);
     circle(x,y,25);
     if(x >= 800)
     {
