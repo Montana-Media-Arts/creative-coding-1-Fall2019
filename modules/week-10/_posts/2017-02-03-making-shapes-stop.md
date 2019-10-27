@@ -191,3 +191,5 @@ function draw()
 
 ```
 Now it works.  Whew!
+
+<a href="https://umontana.zoom.us/recording/share/BmOT3ZrOfih8D_UU5RMm2AO1tzZIWEvRdbj4OKJg1SGwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

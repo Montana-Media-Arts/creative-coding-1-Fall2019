@@ -138,3 +138,5 @@ If you look at the if statement with the OR symbol in it, only one of those cond
 The circles should go back and forth forever.  If you want only the edge of the circles to hit the screen border, change the if statement.  Do you think you can figure that part out?  I think you can!
 
 What math functions are out there that we can use?  Continue and find out!
+
+<a href="https://umontana.zoom.us/recording/share/Gddq7erkBqJkDnf-JGj7jk-JOI6lmHZt3FBR0NOGdqKwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

@@ -157,3 +157,5 @@ There are so many more math functions at your disposal in p5.js.  Here is the li
 [p5.js Math Functions](https://p5js.org/reference/#group-Math)
 
 With that, let's talk about homework for this week.
+
+<a href="https://umontana.zoom.us/recording/share/Ss_9X2CXNK1Ug4dbmwa6K67HwhL1yw5TKFFJ9yxZrlqwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
