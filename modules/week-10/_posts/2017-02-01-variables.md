@@ -12,11 +12,14 @@ For example, they might look like this.
 
 ```html
     var myFavoriteNumber = 42;
+    // this function is called only once
     function setup()
     {
         createCanvas(800,600);
     }
-    
+    /* this function is called continuously
+        while the sketch is open in the browser
+    */
     function draw()
     {
         background(120);
@@ -30,11 +33,14 @@ What if we want to do something with our variables?  We can add to our variables
 
 ```html
     var myFavoriteNumber = 42;
+     // this function is called only once
     function setup()
     {
         createCanvas(800,600);
     }
-    
+    /* this function is called continuously
+        while the sketch is open in the browser
+    */
     function draw()
     {
         background(120);
@@ -100,11 +106,14 @@ What would a variable look like in our main sketch?
 var redColor = 123;
 var greenColor = 39;
 var blueColor = 21;
+ // this function is called only once
 function setup()
 {
     createCanvas(800,600);
 }
-
+/* this function is called continuously
+    while the sketch is open in the browser
+*/
 function draw()
 {
     background(redColor,greenColor,blueColor);
@@ -120,13 +129,15 @@ If we change the variables in the draw function as we did earlier to our favorit
 var redColor = 123;
 var greenColor = 39;
 var blueColor = 21;
-
+// this function is called only once
 function setup()
 {
 
     createCanvas(800,600);
 }
-
+/* this function is called continuously
+   while the sketch is open in the browser
+*/
 function draw()
 {
     background(redColor,greenColor,blueColor);
