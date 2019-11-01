@@ -51,17 +51,17 @@ We know how to make it move right?
 
 That moves our circle to the right because we are adding to x.  Remember that x,y and diameter are variables.  We are just changing (or can change) the values stored in those variables which makes them really useful.  Yes?  Good!
 
-Hopefully you also found out that if you change x and y and diameter at the same time, some really interesting things happen.
+Hopefully you also found out that if you change x and y and diameter at the same time, some really interesting things happen.  This will be the starting point for this week.
 
 ```html
     var x = 50;
     var y = 50;
     var diameter = 25;
-    void setup()
+    function setup()
     {
         createCanvas(800,600);
     }
-    void draw()
+    function draw()
     {
         background(0);
         fill(24,200,29);
@@ -72,4 +72,4 @@ Hopefully you also found out that if you change x and y and diameter at the same
     }
 ```
 
-Fun! Where do we go from here?
+Fun! Where do we go from here? Let's talk about conditions.  What are those? if, if/else and if/else if statements.  We have seen the first two, but maybe not the third one. We will look at those.
