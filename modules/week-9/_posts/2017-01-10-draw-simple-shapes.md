@@ -12,7 +12,7 @@ Drawing simple shapes is the first thing that p5.js allows us to do quickly.  On
 
 To draw a circle, it might look like this.
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }
@@ -34,7 +34,7 @@ One thing in which to mindful, the x and y origin is in the upper left-hand corn
 
 ## square
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }
@@ -51,7 +51,7 @@ Give it a try!
 
 ## ellipse()
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }
@@ -66,7 +66,7 @@ Notice the difference with the ellipse as it allows us to create a different wid
 
 ## rect()
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }
@@ -81,7 +81,7 @@ Same for the rect function.  If the last two parameters are the same, we will ge
 
 ## triangle()
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }

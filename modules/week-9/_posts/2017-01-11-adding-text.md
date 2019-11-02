@@ -8,7 +8,7 @@ jotted: false
 
 Adding text on your page is not too difficult.  We have to use the text function.  It looks like this.
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }
@@ -23,7 +23,7 @@ This prints the words **Hello there!** to the screen at location x-location 10 a
 
 Notice how it's not too big, though?  We can change the size of the font but using the textSize function.  It looks like this.
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }

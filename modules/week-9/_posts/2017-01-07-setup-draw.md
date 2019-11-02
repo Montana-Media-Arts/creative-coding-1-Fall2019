@@ -14,7 +14,7 @@ The setup function is the first function called and called only once.  createCan
 
 It looks like this.
 
-```html
+```js
     createCanvas(300,500);
 ```
 
@@ -24,7 +24,7 @@ There are some essential things to notice. Hopefully, the look isn't too mysteri
 
 To make the canvas appear, add the createCanvas to the setup function.  It looks like this.
 
-```html
+```js
     function setup()
     {
         createCanvas(300,500);
@@ -43,7 +43,7 @@ What about the draw function?  What makes it so unique?  We know that setup is c
 
 What have we seen so far? We have done this.
 
-```html
+```js
 function draw()
 {
     background(220);
@@ -52,7 +52,7 @@ function draw()
 
 Calling the background function repeatedly, then the user sees the grey background.  How can we tell, though? Remember when talked about writing information to the screen?  We can write to the console.log to prove that the draw is called multiple times.  Let's try it.
 
-```html
+```js
 function draw()
 {
     background(220);

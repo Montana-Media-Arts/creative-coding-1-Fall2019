@@ -59,7 +59,7 @@ Here's the deal.  The sketch.js file is your file and located in the same direct
 
 The file looks like this.
 
-```html
+```js
 function setup() {
   createCanvas(400,400);
 }
