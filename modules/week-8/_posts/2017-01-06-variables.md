@@ -10,7 +10,7 @@ So, you have been working with variables in all the other languages we have work
 
 What do they look like in JavaScript?
 
-```html
+```js
  var favoriteNumber = 13;
  var favoriteColor = "blue";
  var myAge;

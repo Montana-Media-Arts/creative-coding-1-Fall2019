@@ -12,7 +12,7 @@ What if we wanted to make it so that the JavaScript code didn't run automaticall
 
 Functions look like this.
 
-```html
+```js
  function myFunction()
  {
     window.alert("Hi there!");

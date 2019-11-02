@@ -97,7 +97,7 @@ Let's create random numbers.
 
 How do we do that?
 
-```html
+```js
  Math.floor(Math.random() * 10);
 ```
 
