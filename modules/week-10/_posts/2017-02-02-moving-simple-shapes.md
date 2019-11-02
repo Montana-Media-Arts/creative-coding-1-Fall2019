@@ -10,7 +10,7 @@ Remember, in the last section, how we created new variables and then used them t
 
 Let's look at this example.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -40,7 +40,7 @@ All the background color variables are interesting, but you are probably saying,
 
 Glad you asked!  Let's make a small change and see what happens.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -76,7 +76,7 @@ What if we did the same to **y**?  Which way would it go?
 
 That is crazy!  We just made a simple shape move.  What if we added a second one?
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -109,7 +109,7 @@ Do you get two circles?  Oh dang!  You don't.  You see only one.
 
 Well, technically, you do, but you only get to see one because the other one is on top of the first one because they are at the same x,y coordinate, and the same diameter. How can I prove it to you?  I know you are skeptics.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;

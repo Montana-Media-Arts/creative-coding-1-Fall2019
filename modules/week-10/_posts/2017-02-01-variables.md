@@ -10,7 +10,7 @@ Wait a minute; we have already done this, right?  Yes! We did this in JavaScript
 
 For example, they might look like this.
 
-```html
+```js
     var myFavoriteNumber = 42;
     // this function is called only once
     function setup()
@@ -31,7 +31,7 @@ What do you see?  Well, you won't see anything on the screen, but you will see t
 
 What if we want to do something with our variables?  We can add to our variables like this.
 
-```html
+```js
     var myFavoriteNumber = 42;
      // this function is called only once
     function setup()
@@ -51,13 +51,13 @@ What if we want to do something with our variables?  We can add to our variables
 
 Did you notice the change to **myFavoriteNumber**?  It gets incremented by 1.  It can be written like this too.
 
-```html
+```js
     myFavoriteNumber = myFavoriteNumber + 1;
 ```
 
 They both mean the same thing. First, the value of one gets added to the previous value of myFavoriteNumber, and then it is assigned back to myFavoriteNumber.  There are three ways in which we can do the same thing. Here are the different choices.
 
-```html
+```js
     myFavoriteNumber++;
     myFavoriteNumber = myFavoriteNumber + 1;
     myFavoriteNumber += 1;
@@ -70,7 +70,7 @@ Another thing to notice is how I declare **var myFavoriteNumber** above the setu
 
 Declaring a variable inside of a method looks like this.
 
-```html
+```js
     
     function doSomething()
     {
@@ -83,7 +83,7 @@ This variable, **var myFavoriteColor** can be seen only in the doSomething() fun
 
 You can also declare variables in loops like this.
 
-```html
+```js
     for(var i = 0; i < 5; i++)
     {
         console.log(i);
@@ -94,14 +94,14 @@ What this means is that the variable **i** will exist in the for loop, but when 
 
 Did you notice the difference between creating a variable like myFavoriteNumber compared to myFavoriteColor?  The first one contains a number while the second contains a string.  These differences are important to understand.  When declaring a number, you do not need double-quotes **""**. Conversely, if you declare a string, it needs to be in double-quotes.
 
-```html
+```js
     var name = "John Cena";
     var age = 67;
 ```
 
 What would a variable look like in our main sketch?
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -124,7 +124,7 @@ As you can see, the variables **redColor**, **greenColor**, and **blueColor** ar
 
 If we change the variables in the draw function as we did earlier to our favorite number, we should see something exciting.  Try this sketch.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;

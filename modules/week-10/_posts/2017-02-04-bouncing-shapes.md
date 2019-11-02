@@ -10,7 +10,7 @@ Now that you know how to make the shape stop, how to we make it go the opposite 
 
 Let's start where we left off.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -46,7 +46,7 @@ The trick is that we need the x to go the opposite way.  How do we make the shap
 
 So, what if we did this?
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -86,7 +86,7 @@ Does this work?  What did you see?  Why did it just wiggle?  It actually did go 
 
 Instead of trying to add or subtract directly, what if we added all the time.  Let's not focus on adding, but rather, **what** we are adding.  We are going to make a couple of changes.  Check out this code.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -124,7 +124,7 @@ function draw()
 
 If you run this code, it will work just as did before, where the circles will continue forever.  Notice, I created a new variable **movement** and added that instead of 7.  What about the if statement?  Here is where the magic is going to happen.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -162,7 +162,7 @@ function draw()
 
 Did you notice the changes?  I did two things.  I switched the direction of the relational operator from less than or equal to and made it "greater than or equal to."  The second thing I did was multiply movement by -1.  Why would I do that?  Okay, let's break it down.
 
-```html
+```js
     if(x >= 800)
     {
 
@@ -173,7 +173,7 @@ Did you notice the changes?  I did two things.  I switched the direction of the 
 
 I changed the if statement so that the body only runs when x is equal to or beyond the right border.  What happens in there?  Now, the big reveal.
 
-```html
+```js
 
     movement *= -1;
 

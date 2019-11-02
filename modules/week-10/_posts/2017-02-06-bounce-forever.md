@@ -10,7 +10,7 @@ We made the circles come back from the right side, but what if we want them to c
 
 Let's start where we left off.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -50,7 +50,7 @@ What is the condition for which we want to check?  It should be when we are less
 
 So, we could do what we did before.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -95,7 +95,7 @@ We are going to introduce what is called **Logical Operators**.  There are three
 
 To combine the previous if statements, we have to think about this in English again.  When do we need movement to switch directions?  We can say if the circle is greater than or equal to 800 or if the circle is less than or equal to zero.  Wait!  Did you see the keyword?  **OR**.  Since we know what symbols to use, we can write the code above to look like this.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;

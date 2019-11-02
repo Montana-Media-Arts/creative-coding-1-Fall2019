@@ -8,7 +8,7 @@ jotted: false
 
 So, what is the Math function that we used before?  Random right?  When we wanted a random number, it looked like this.
 
-```html
+```js
     number1 = Math.floor(Math.random() * 10);
 ```
 
@@ -16,7 +16,7 @@ Remember, the Math.random() returns a number between 0 inclusive and 1 exclusive
 
 For example, if you have the following.
 
-```html
+```js
     console.log(Math.floor(3.03));
 ```
 
@@ -24,7 +24,7 @@ You will see 3.
 
 If you the following.
 
-```html
+```js
     console.log(Math.floor(3.94));
 ```
 
@@ -36,7 +36,7 @@ How can we use it in our previous code?
 
 Let's start with where we left off.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -74,7 +74,7 @@ function draw()
 
 This time though, let's assign movement a random value.  To do that, we are going to assign it inside the setup function.  Now the code looks like this.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -114,7 +114,7 @@ Now, movement will be a variable speed.  Refresh the page a few times and see if
 
 Let's change our code one more time.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;

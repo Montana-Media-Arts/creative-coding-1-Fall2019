@@ -8,7 +8,7 @@ jotted: true
 
 Last time, we left off with this.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -51,7 +51,7 @@ It is the width.  Which one is that?  Is it the **800** or the **600**?
 
 So, how does this look?
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -87,7 +87,7 @@ What happened above? I created an if statement and said if it is less than 800 t
 
 I could have done this, too, right?  Does this work? What are we doing? We use the **!** which means **NOT** equal in this case.
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -121,7 +121,7 @@ function draw()
 
 Run this.  Does it still work?  Why?  
 
-```html
+```js
 
 var redColor = 123;
 var greenColor = 39;
@@ -159,7 +159,7 @@ Remember, in the preceding if statement, it has to equal precisely 800 for it to
 
 But I do want the circle to move to the end. If the code remains strictly less than, then it won't get to the end of the screen.  Fixing this problem requires combining both the relational and equality operator together.  Now the symbols look like this **<=**.  The two symbols together mean "less than or equal to."  The opposite being **>=** or "greater than or equal to."
 
-```html
+```js
 var redColor = 123;
 var greenColor = 39;
 var blueColor = 21;
