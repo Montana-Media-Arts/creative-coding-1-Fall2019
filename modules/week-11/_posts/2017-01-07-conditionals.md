@@ -13,7 +13,7 @@ These are control structures that help us make decisions when our code runs.
 
 These are the most basic conditional statements.  They always evaluate to something that is true or false.
 
-```html
+```js
     if(3 == 5)
     { // opening curly brace
         // body of the if statement
@@ -24,7 +24,7 @@ These are the most basic conditional statements.  They always evaluate to someth
 In this if statements, if 3 equals 5 then, the body of the if runs.  In this instance, the console.log will not run. However, if we chane the if statement to something like this.
 
 
-```html
+```js
     if(3 == 3)
     { // opening curly brace
         // body of the if statement
@@ -39,7 +39,7 @@ Keep in mind, we want to use variables whenever we can.
 You might want something like this.
 
 
-```html
+```js
     if(a == b)
     { // opening curly brace
         // body of the if statement
@@ -51,7 +51,7 @@ Now, a could be 3 and b equal to 5. In that case, the if statement would fail an
 
 How do we apply this to our new example?
 
-```html
+```js
     var x = 50;
     var y = 50;
     var diameter = 25;
@@ -86,7 +86,7 @@ We looked at this last week and it's good to revisit before we add more.  With i
 
 The syntax looks like this.
 
-```html
+```js
     var a = 5;
     var b = 3;
     
@@ -102,7 +102,7 @@ The syntax looks like this.
 
 How did we do it in our project?
 
-```html
+```js
     var x = 50;
     var y = 50;
     var diameter = 25;
@@ -149,7 +149,7 @@ So, how can we effectively use an if/else statement?
 
 What if we did something like this.
 
-```html
+```js
     var a = 5;
     var b = 3;
     
@@ -165,7 +165,7 @@ What if we did something like this.
 
 How did we do it in our project?
 
-```html
+```js
     var x = 50;
     var y = 50;
     var diameter = 25;
@@ -212,3 +212,195 @@ What about else ifs?  What is that?
 
 ## if/else if
 
+else if is just another way to check if a statement is true or false, but make things a little more efficient.  With an if and then an else, if we wanted to create another if condition, that depends on the first if, then we would need to nest the next if in the else.  Yikes!  So, what we want to do instead is use an else if.  The syntax looks like this.
+
+```js
+    var a = 3;
+    var b = 5;
+
+    if(a == b)
+    {
+        console.log("a and b are the same");
+    }
+    else if(a < b)
+    {
+        console.log("a is less than b");
+    }
+    else if(a > b)
+    {
+        console.log("a is greater than b");
+    }
+```
+
+So, what happens when this code runs is that the first if statement is evaluated.  If it is true, all the others are skipped.  It continues in this fashion until there are no more **else if** statements.  Pretty cool huh?  How do we apply it to our previous example?
+
+```js
+
+    var x = 50;
+    var y = 50;
+    var diameter = 25;
+    function setup()
+    {
+        createCanvas(800,600);
+    }
+    function draw()
+    {
+        background(0);
+        fill(24,200,29);
+        circle(x,y,diameter);
+        if(x <= 300)
+        {
+            x+=10;
+        }
+        else if(x > 300)
+        {
+            x = 50;
+        }
+        if(y <= 300)
+        {
+            y+=3;
+        }
+        else if(y > 300)
+        {
+            y = 50;
+        }
+        if(diameter <= 300)
+        {
+            diameter+=8;
+        }
+        else if(diameter > 300)
+        {
+            diameter = 25;
+        }
+        
+    }
+```
+
+Okay so maybe not that meaningful as it looks the same as the one from before.  However, what if we did this?
+
+```js
+
+    var x = 50;
+    var y = 50;
+    var diameter = 25;
+    function setup()
+    {
+        createCanvas(800,600);
+    }
+    function draw()
+    {
+        background(0);
+        fill(24,200,29);
+        circle(x,y,diameter);
+        if(x <= 300)
+        {
+            x+=10;
+        }
+        else if(x > 300)
+        {
+           x = 50;
+        }  
+        else if(x > 200 )
+        {
+            x+=5;
+        }
+        
+        if(y <= 300)
+        {
+            y+=3;
+        }
+        else if(y > 300)
+        {
+            y = 50;
+        }  
+        else if(y > 200)
+        {
+            y+=1;
+        }
+        
+        if(diameter <= 300)
+        {
+            diameter+=8;
+        }
+        else if(diameter > 300)
+        {
+            diameter = 25;
+        }  
+        else if(diameter > 200)
+        {
+            diameter +=4;
+        }
+        
+        
+    }
+```
+
+Do you think order matters?
+
+What if we do this?
+
+```js
+
+    var x = 50;
+    var y = 50;
+    var diameter = 25;
+    function setup()
+    {
+        createCanvas(800,600);
+    }
+    function draw()
+    {
+        background(0);
+        fill(24,200,29);
+        circle(x,y,diameter);
+        if(x <= 300)
+        {
+            x+=10;
+        }
+        else if(x > 200 )
+        {
+            x+=5;
+            console.log("second else if for x");
+        }
+        else if(x > 300)
+        {
+           x = 50;
+        }  
+       
+        
+        if(y <= 300)
+        {
+            y+=3;
+        }
+        else if(y > 200)
+        {
+            y+=1;
+            console.log("second else if for y");
+        }
+        else if(y > 300)
+        {
+            y = 50;
+        }  
+        
+        
+        if(diameter <= 300)
+        {
+            diameter+=8;
+        }
+        else if(diameter > 200)
+        {
+            diameter +=4;
+            console.log("second else if for diameter");
+        }
+        else if(diameter > 300)
+        {
+            diameter = 25;
+        }  
+        
+    }
+
+```
+
+Now did you see a change?  What happened?  Did it actually get to the third else if? How can we get it to work the way we want?
+
+In order to make it work the way we want, we must change a couple of things.  Go to the next section to find out.
