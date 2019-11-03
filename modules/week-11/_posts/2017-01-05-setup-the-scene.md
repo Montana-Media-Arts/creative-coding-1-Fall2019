@@ -12,15 +12,15 @@ Have any of you played Spore?  Let's make something like that.  (minus the more 
 
 First, let's set up our scene.
 
-```html
+```js
     var x = 50;
     var y = 50;
     var diameter = 25;
-    void setup()
+    function setup()
     {
         createCanvas(800,600);
     }
-    void draw()
+    function draw()
     {
         background(0);
         fill(24,200,29);
@@ -32,15 +32,15 @@ Here we just created a simple black background and added a greenish circle to it
 
 We know how to make it move.
 
-```html
+```js
     var x = 50;
     var y = 50;
     var diameter = 25;
-    void setup()
+    function setup()
     {
         createCanvas(800,600);
     }
-    void draw()
+    function draw()
     {
         background(0);
         fill(24,200,29);
@@ -53,7 +53,7 @@ That moves our circle to the right because we are adding to x.  Remember that x,
 
 Hopefully, you also found out that if you change x and y and diameter at the same time, some exciting things happen.  The concepts we learned last week will be the starting point for this week.
 
-```html
+```js
     var x = 50;
     var y = 50;
     var diameter = 25;
