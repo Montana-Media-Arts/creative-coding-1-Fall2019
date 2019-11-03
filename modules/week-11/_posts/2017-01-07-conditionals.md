@@ -430,3 +430,5 @@ What if we do this?
 Now, did you see a change?  What happened?  Did it get to the third else if? How can we get it to work the way we want?
 
 To make it work the way we want, we must change a couple of things.  Go to the next section to find out.
+
+<a href="https://umontana.zoom.us/recording/share/vq5OTiedAIzuyGSJ7GUV9xfmKp1qLz2IUFuHXEuuT46wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
