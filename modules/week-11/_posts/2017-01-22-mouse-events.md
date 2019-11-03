@@ -6,7 +6,7 @@ jotted: false
 
 # Mouse Events
 
-We can interact with our sketches using the mouse too. How do we do that?  We can use the **mousePressed** function which is called when the mouse is pressed while we can use the **mouseClicked** function which is called when the mouse is pressed and and released.  We can also use the **mouseMoved()** function
+We can interact with our sketches using the mouse too. How do we do that?  We can use the **mousePressed** function to respond when pressing the mouse, and we can use the **mouseClicked** function, to respond when pressing and then releasing the moused.  We can also use the **mouseMoved()** function to respond to the mouse moving across the screen.
 
 Let's look at mousePressed.
 
@@ -157,7 +157,7 @@ What about the mouseClick function?
 
 ```
 
-To test out the difference, you have to pressed down and then release the mouse.  Now, the ellipse is drawn.  What about the last one? mouseMove().
+To test out the difference, you have to press down and then release the mouse.  Now, the ellipse draws to the screen.  What about the last one? mouseMove().
 
 ## mouseMove
 
@@ -233,4 +233,4 @@ mouseMove tracks the mouse as it moves across the screen.
 
 ```
 
-Now, you see the ellipse move with the mouse.  Pretty cool right?  
+Now, you see the ellipse move with the mouse.  Pretty cool, right?  

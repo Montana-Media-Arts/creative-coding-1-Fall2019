@@ -8,11 +8,11 @@ jotted: false
 
 So far, we transitioned our programs from static shapes to more movable shapes.  Now, we are going to make our shapes respond to events.
 
-There are two events in which we will focus.  The first one is keyPressed.
+There are two events on which we will focus.  The first one is keyPressed.
 
 ## keyPressed
 
-If we want to make changes to our program based on keys pressed, we must use a special function called **keyPressed**.
+If we want to make changes to our program based on keys pressed, we must use a particular function called **keyPressed**.
 
 Let's see how it works.
 
@@ -41,10 +41,10 @@ function keyPressed()
 }
 ```
 
-The keyPressed function checks for the **d** key and then moves to the right and then the **a** moves the circle to the left.
-Notice something else?  The if/else if!  It's back and totally appropriate.  If we didn't use the else if, it would be two if's.  It would work the same, but the program would run just a little bit slower because it would have to check every if statement wheras with an else if, once one is true, the others are ignored.
+The keyPressed function checks for the **d** key and then moves to the right, and then the **a** moves the circle to the left.
+Notice something else?  The if/else if!  It's back and useful in this situation. If we didn't use the else if, it would be two if's, it would work the same, but the program would run just a little bit slower because it would have to check every if statement whereas with an else if, once one is true, the code ignores the others.
 
-We have another option though too.  We can use the **keyIsDown** function too.  It looks like this.
+We have another option, though, too.  We can use the **keyIsDown** function also, and it looks like this.
 
 ```js
 var x = 100;
@@ -78,7 +78,7 @@ function keyPressed()
 }
 ```
 
-Keep in mind that all letters are actually stored as numbers. That is why we can get the keyCode for each letter.
+Keep in mind that computers store all letters as numbers. That is why we can get the keyCode for each letter.
 
 How can we apply this to our example?  Let's look at what we had before.
 
@@ -143,7 +143,7 @@ How can we apply this to our example?  Let's look at what we had before.
     }
 ```
 
-Let's change this so that we can move our object with the **WASD** and have the circle increase continuously.  Let's look at how it changed.
+Let's change this so that we can move our object with the **WASD** and have the circle increase continuously.  Let's look at how it evolved.
 
 ```js
     var x = 50;
@@ -203,6 +203,6 @@ Let's change this so that we can move our object with the **WASD** and have the 
     }
 ```
 
-Now, we are move the object left and right while going up and down with the WASD keys and then the diameter increases in size and then resets once the diameter reaches 200.
+Now, we are moving the object left and right while going up and down with the WASD keys, and then the diameter increases in size and then resets once the diameter reaches 200.
 
 What else can we do?  Let's look at mouse events.

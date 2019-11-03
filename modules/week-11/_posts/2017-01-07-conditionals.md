@@ -11,7 +11,7 @@ These are control structures that help us make decisions when our code runs.
 
 ## if statements
 
-These are the most basic conditional statements.  They always evaluate to something that is true or false.
+These are the most basic conditional statements.  They always evaluate to something true or false.
 
 ```js
     if(3 == 5)
@@ -21,7 +21,7 @@ These are the most basic conditional statements.  They always evaluate to someth
     }// closing curly brace
 ```
 
-In this if statements, if 3 equals 5 then, the body of the if runs.  In this instance, the console.log will not run. However, if we chane the if statement to something like this.
+In these, if statements, if 3 equals 5, then, the body of the if runs.  In this instance, the console.log will not run; however, if we change the if statement to something like this.
 
 
 ```js
@@ -34,7 +34,7 @@ In this if statements, if 3 equals 5 then, the body of the if runs.  In this ins
 
 Then, the console.log runs.
 
-Keep in mind, we want to use variables whenever we can.
+Keep in mind; we want to use variables whenever we can.
 
 You might want something like this.
 
@@ -47,7 +47,7 @@ You might want something like this.
     }// closing curly brace
 ```
 
-Now, a could be 3 and b equal to 5. In that case, the if statement would fail and then the code skips the body if statement and runs the code. However, if a = 3 and b = 3, then it evaluations to true.
+Now, a could be three and b equal to 5. In that case, the if statement would fail, and then the code skips the body if statement and runs the code. However, if a = 3 and b = 3, then it evaluations to true.
 
 How do we apply this to our new example?
 
@@ -82,8 +82,8 @@ How do we apply this to our new example?
 
 ## if/else statements
 
-We looked at this last week and it's good to revisit before we add more.  With if statements, we can also have the other case.  We can think of it like this.  If something is true, then do something (the thing in the curly braces under the if), **else** do something else (it will have its own curly braces).
-
+We looked at this last week, and it's good to revisit before we add more.  With if statements, we can also have the other case.  We can think of it like this.  If something is true, then do something (the thing in the curly braces under the if); otherwise, do something **else** (it will have curly braces).
+ 
 The syntax looks like this.
 
 ```js
@@ -143,7 +143,7 @@ How did we do it in our project?
     }
 ```
 
-Remember this behavior?  It looks a little funky right? It was when we were trying to get our shape to bounce and we just put in an else statement that said if we weren't greater than the width (or height), then subject.  That didn't work so we had to create a new variable that would multiply by a negative one to speed and then add that to the shape.  
+Remember this behavior?  It looks a little funky right? It was when we were trying to get our shape to bounce, and we just put in an else statement that said if we weren't higher than the width (or height), then subject.  That didn't work, so we had to create a new variable that would multiply by a negative one to speed and then add that to the shape.  
 
 So, how can we effectively use an if/else statement?
 
@@ -206,13 +206,39 @@ How did we do it in our project?
     }
 ```
 
-Now that's more interesting right?  (or could cause a seizure depending your sensitivity).
+Now that's more interesting.  (or could cause a seizure depending your sensitivity).
 
-What about else ifs?  What is that?
+What about else if. What is that?
 
 ## if/else if
 
-else if is just another way to check if a statement is true or false, but make things a little more efficient.  With an if and then an else, if we wanted to create another if condition, that depends on the first if, then we would need to nest the next if in the else.  Yikes!  So, what we want to do instead is use an else if.  The syntax looks like this.
+**else if** is just another way to check if a statement is true or false, and it makes things more efficient.  Take a look at the following code.
+
+```js
+    var a = 3;
+    var b = 5;
+
+if(a == b)
+{
+	console.log("a equals b");
+}
+else
+{
+	if(a > b)
+	{
+		console.log("a > b");
+	}
+	else
+	{
+		if(a < b)
+		{
+			console.log("a < b");
+		}
+	}
+}
+```
+
+Yikes!  Do you see what I did here?  The previous code is what you must do if use just if/else. What should we do instead? Let's use an else if.  The syntax looks like this.
 
 ```js
     var a = 3;
@@ -232,7 +258,7 @@ else if is just another way to check if a statement is true or false, but make t
     }
 ```
 
-So, what happens when this code runs is that the first if statement is evaluated.  If it is true, all the others are skipped.  It continues in this fashion until there are no more **else if** statements.  Pretty cool huh?  How do we apply it to our previous example?
+ In the first, if statement, if true, all the others are skipped.  It continues in this fashion until there are no more **else if** statements.  Pretty cool, huh?  How do we apply it to our previous example?
 
 ```js
 
@@ -276,7 +302,7 @@ So, what happens when this code runs is that the first if statement is evaluated
     }
 ```
 
-Okay so maybe not that meaningful as it looks the same as the one from before.  However, what if we did this?
+Okay, so maybe not that meaningful as it looks the same as the one from before.  However, what if we did this?
 
 ```js
 
@@ -401,6 +427,6 @@ What if we do this?
 
 ```
 
-Now did you see a change?  What happened?  Did it actually get to the third else if? How can we get it to work the way we want?
+Now, did you see a change?  What happened?  Did it get to the third else if? How can we get it to work the way we want?
 
-In order to make it work the way we want, we must change a couple of things.  Go to the next section to find out.
+To make it work the way we want, we must change a couple of things.  Go to the next section to find out.

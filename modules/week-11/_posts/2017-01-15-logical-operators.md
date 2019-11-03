@@ -6,7 +6,7 @@ jotted: false
 
 # Logical Operators
 
-As we discussed last week, there are three logical operators - AND, OR and NOT.  They are symbolized with **&&**, **||**, and **!**
+As we discussed last week, there are three logical operators - AND, OR, and NOT.  They are symbolized with **&&**, **||**, and **!**
 
 Let's look at the first operator AND
 
@@ -70,11 +70,11 @@ Let's look at the first operator AND
     }
 ```
 
-It wasn't doing what we wanted in the last section. It was only going into the the first if statement and the last else if, but never the second. In order to make the code find the second else if, we need to make the changes above.  
+It wasn't doing what we wanted in the last section. It was only going into the first if statement and the final else if, but never the second. To make the code find the second else if, we need to make the changes above.  
 
-For each second else if, the variable must be greater than some number and if the same variable is less than another number.  If they are both true, then the variable will change at a different rate and the console.log will print out.
+For each second else if the variable must be higher than some number and if the same variable is less than some other number.  If the variables are greater than 200 and less than or equal to 300, then the variable will change at a different rate, and the console.log will print out.
 
-Now, it still essentially changes like before, but it should slow down until it resets. Feel free to change the numbers.
+Now, the variables change like before, but the changes slow down until it resets. Feel free to change the numbers.
 
 ## OR
 
@@ -142,9 +142,9 @@ Try this code out.
     }
 ```
 
-Why did it grow forever? Now that we inserted an OR, the x variable for example will change if it's greater than 200 or less than or equal to 300. Once this condition is met, then it will grow forever.  This happens for the other two variables, y and diameter too.
+Why did it grow forever? Now that we inserted an OR, the x variable, for example, will change if it's higher than 200 or less than or equal to 300.  After meeting this condition, then variables grow forever.  These changes happen for the other two variables, y, and diameter too.
 
-How do we make it so that all three if and else if's are evaluated to true at some point?
+What needs to change so that all three if and else if's evaluate to true at some point?
 
 ```js
     var x = 50;
@@ -211,8 +211,6 @@ How do we make it so that all three if and else if's are evaluated to true at so
 
 So, what about NOT?  How does this fit in this scenario?
 
-What does it look like?
-
 ```js
     var x = 50;
     var y = 50;
@@ -274,4 +272,4 @@ What does it look like?
     }
 ```
 
-All we changed in this scenario is the last else if and as long x,y or diameter isn't equal to their respective number, then the variable resets.
+All we changed in this scenario is the last else if and as long x,y, or diameter isn't equal to their respective number, then the variable resets.
