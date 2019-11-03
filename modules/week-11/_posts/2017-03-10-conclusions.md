@@ -6,7 +6,7 @@ jotted: false
 
 # Weekly Conclusions
 
-movement with the keyboard and the mouse events.  Great job, and let me know if you have any questions!
+We covered a lot this week again with conditionals, loops, and movement with the keyboard and the mouse events.  Great job, and let me know if you have any questions!
 
 ## Next Week
 
