@@ -73,3 +73,5 @@ Hopefully, you also found out that if you change x and y and diameter at the sam
 ```
 
 Fun! Where do we go from here? Let's talk about the conditions.  What are those? If, if/else, and if/else if statements.  We have seen the first two, but maybe not the third one. We will look at those.
+
+<a href="https://umontana.zoom.us/recording/share/mHw0xqCy5nbGnAWXfee7J6l6bjxFyOzw0BAW635APuWwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

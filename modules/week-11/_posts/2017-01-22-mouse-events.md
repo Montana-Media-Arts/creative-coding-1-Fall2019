@@ -234,3 +234,5 @@ mouseMove tracks the mouse as it moves across the screen.
 ```
 
 Now, you see the ellipse move with the mouse.  Pretty cool, right?  
+
+<a href="https://umontana.zoom.us/recording/share/xmv3v_A1HUYdwAzr2dvlSZ2liE-5e79rtZf4a7FGs_2wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
