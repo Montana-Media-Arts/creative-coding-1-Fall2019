@@ -273,3 +273,5 @@ So, what about NOT?  How does this fit in this scenario?
 ```
 
 All we changed in this scenario is the last else if and as long x,y, or diameter isn't equal to their respective number, then the variable resets.
+
+<a href="https://umontana.zoom.us/recording/share/d1LmQTffFVdIfpgDzTI2CHrypVo_17nwj9RI5ZJoeE2wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

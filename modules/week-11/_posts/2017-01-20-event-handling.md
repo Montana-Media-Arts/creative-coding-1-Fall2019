@@ -206,3 +206,5 @@ Let's change this so that we can move our object with the **WASD** and have the 
 Now, we are moving the object left and right while going up and down with the WASD keys, and then the diameter increases in size and then resets once the diameter reaches 200.
 
 What else can we do?  Let's look at mouse events.
+
+<a href="https://umontana.zoom.us/recording/share/EPK2h1TeywIv5K3h1be5o8Aou9u18hFpHa3jvQ6irhewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
