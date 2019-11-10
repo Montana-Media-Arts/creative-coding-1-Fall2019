@@ -79,10 +79,10 @@ I can then call this function in the draw function like this.
 I called the **myCircle** function in the draw function.  Did it work?  Good!  Now I can create a single circle in the draw function by calling myCircle.  However, if I call it again, it will generate another circle in the same place.
 
 ```js
-function myCircle(width,height)
+function myCircle(x,y)
 {
     fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-    circle(Math.floor(Math.random()*width)+10,Math.floor(Math.random()*height),Math.floor(Math.random()*100)+10)
+    circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
 }
 ```
 
@@ -102,10 +102,10 @@ function draw()
     myCircle(500,500);
 }
 
-function myCircle(width,height)
+function myCircle(x,y)
 {
     fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-    circle(Math.floor(Math.random()*width)+10,Math.floor(Math.random()*height),Math.floor(Math.random()*100)+10)
+    circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
 }
 ```
 
@@ -124,10 +124,10 @@ function draw()
     myCircle(500,500);
 }
 
-function myCircle(width,height)
+function myCircle(x,y)
 {
     fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-    circle(Math.floor(Math.random()*width)+10,Math.floor(Math.random()*height),Math.floor(Math.random()*100)+10)
+    circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
 }
 ```
 
