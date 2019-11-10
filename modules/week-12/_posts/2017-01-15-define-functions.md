@@ -364,3 +364,6 @@ Finally, let's add **myCircle** function into this.
 ```
 
 Did you see the circles?  Wow right?  Let's go onto the homework.
+
+<a href="https://umontana.zoom.us/recording/share/qulcCEV49wgQRpcphjmCAosNTZYJkLZyku_bMA8pPliwIumekTziMw
+" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

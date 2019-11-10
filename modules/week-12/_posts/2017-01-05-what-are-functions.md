@@ -33,3 +33,5 @@ How do we know they are functions?
 Let's look at the **setup** function.  It's easy to know what section is a function because it starts with the keyword **function**.  Then it is followed by the name of the function, in this case, **setup**, and then the function name is always followed by **()** parentheses.  Finally, the body of the function is surrounded by **{}** curly braces.
 
 Does this look familiar?  It should!  It appears like if statement. 
+
+<a href="https://umontana.zoom.com.cn/recording/play/XOQrdlZVb32pGlMK1q9c3bkMOznUv0dx-fRYMQj5w0_PLAve8bA3BJ8W2U4FkeZe?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

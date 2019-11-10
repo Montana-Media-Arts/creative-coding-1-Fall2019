@@ -132,3 +132,6 @@ function myCircle(x,y)
 ```
 
 Cool huh?
+
+<a href="https://umontana.zoom.us/recording/share/8aNSUGgCbsFCBb4FcUi-rc1REkJa1-qCpTZYqSWbK3ywIumekTziMw
+" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
