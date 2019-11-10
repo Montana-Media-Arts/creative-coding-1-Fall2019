@@ -355,10 +355,10 @@ Finally, let's add **myCircle** function into this.
     
     }
 
-    function myCircle(width,height)
+    function myCircle(x,y)
     {
         fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-        circle(Math.floor(Math.random()*width)+10,Math.floor(Math.random()*height),Math.floor(Math.random()*100)+10)
+        circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
     }
 
 ```
