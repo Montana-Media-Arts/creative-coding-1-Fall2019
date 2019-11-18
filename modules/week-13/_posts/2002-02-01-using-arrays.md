@@ -6,7 +6,7 @@ jotted: true
 
 # Working with Arrays
 
-Let's get hands on with arrays now.  We will start with a simple example and then build on the example from last week.
+Let's get hands-on with arrays now.  We will start with a simple example and then build on the model from last week.
 
 ```js
     var x = 50;
@@ -28,7 +28,7 @@ Let's get hands on with arrays now.  We will start with a simple example and the
     }
 ```
 
-Remember this?  What if I wanted to create an array of those two circles instead of creating all those variables?  What does that look like?
+Remember this?  What if I wanted to create an array of those two circles instead of creating all those variables?  The code below shows how to implement this.
 
 ```js
     var myXs = [];
@@ -52,11 +52,11 @@ Remember this?  What if I wanted to create an array of those two circles instead
     }
 ```
 
-Now that's great and it works. However, first let's talk about what's going on.  In the first line, I define three empty arrays **myXs, myYs, and myDiameters**.  We know they are arrays because of the **[]** that is after the equals sign.
+Now that's great, and it works. However, first, let's talk about what's going on.  In the first line, I define three empty arrays **myXs, myYs, and myDiameters**.  We know they are arrays because of the **[]** that is after the equals sign.
 
-Then, I add the x,y and diameter components to each arrayin the setup.  Notice the first one is called **myXs[0], myYs[0], myDiameters[0]** and the second is the **myXs[1], myYs[1], myDiameters[1]**.  When we create arrays and start adding items to them, the count always starts at zero.  Each one of these are called the **index** of an array.
+Then, I add the x,y, and diameter components to each array in the setup.  Notice the first one is called **myXs[0], myYs[0], myDiameters[0]** and the second is the **myXs[1], myYs[1], myDiameters[1]**.  When we create arrays and start adding items to them, the count always starts at zero.  Each one of these is called the **index** of an array.
 
-Have you seen this before?  You have!  In for loops, we usually started with **var i = 0** right?  That's because most languages start counting at zero instead of 1.
+Have you seen this before?  You have!  In for loops, we started with **var i = 0**.  That's because most languages start counting at zero instead of 1.
 
 So, how can we change what we did above?
 
@@ -84,9 +84,9 @@ So, how can we change what we did above?
     }
 ```
 
-Okay so we made a few more changes here, but only in the draw.  I create a for loop - remember when I said they would come back?  Instead of printing out each individual index, I use the array to print them all out.  This allows me to have as many indices without having to change any code later.
+Okay, so we made a few more changes here, but only in the draw.  I create a for loop - remember when I said they would come back?  Instead of printing out each index one by one, I use the array to print them all out.  This method allows me to have as many indices without having to change any code later.
 
-The other thing to note is that I use **length** in the for loop instead of 2.  This is a built-in property of the array that returns how many items are in the array.  That way if we add more to the array, it still prints without having to change anything in the for loop. Let's look at that.
+The other thing to note is that I use **length** in the for loop instead of 2.  Length is a built-in property of the array that returns how many items are in the array.  That way, if we add more to the array, it still prints without having to change anything in the for loop. Let's look at that.
 
 ```js
     var myXs = [];
@@ -118,7 +118,7 @@ The other thing to note is that I use **length** in the for loop instead of 2.  
     }
 ```
 
-It's cool right?  However, there is one more thing we should address.  What about the number of circles we are creating in the setup?  How do we make that better?
+However, there is one more thing we should address.  What about the number of circles we are creating in the setup?  How do we make that better?
 
 What if we create another for loop? Yes!
 
@@ -153,9 +153,9 @@ What if we create another for loop? Yes!
     }
 ```
 
-Let's look at what we did.  We created a for loop in the setup.  This time, we went from 0 to 3.  We have to put in three because we do not have a length yet.  We also create three variables for the x,y, and diameter.  Then, we filled the three arrays. Each time through the for loop, we changed the x and y by 50 pixels and increased the size of the circle diamter by 25.  The best part though is that nothing in draw had to change.
+Let's look at what we did.  We created a for loop in the setup.  This time, we went from 0 to 3.  We have to put in three because we do not have a length yet.  We also create three variables for the x,y, and diameter.  Then, we filled the three arrays. Each time through the for loop, we changed the x and y by 50 pixels and increased the size of the circle diameter by 25.  The best part, though, is that nothing in the draw had to change.
 
-This is pretty cool, but what if I wanted 10 circles?
+Automating stuff is pretty cool, but what if I wanted ten circles?
 
 Look at this code and see what I had to change to do it.
 
@@ -290,7 +290,7 @@ How do we apply this to the project from last week? Let's start from where we le
     }
 ```
 
-When you run this, remember random circles start appearing everywhere which is cool if that's the effect you want. However, if I just want to two random circles to appear and stay put, we can use an array for that.  Let's change the code above to the following.
+When you run this, remember random circles start appearing everywhere, which is cool if that's the effect you are after. However, if I want two random circles to appear and stay put, we can use an array for that.  Let's change the code above to the following.
 
 ```js
 
@@ -414,5 +414,5 @@ When you run this, remember random circles start appearing everywhere which is c
 
 ```
 
-There a few things to notice. First, I changed the myCircle function and created three different functions. These functions return a random x, y and diameter respectively.  Then, I create a for loop to create the circle parameters and then printed out the circles in the draw method using a for loop as well.  This time the circles don't move around, but rather just change color.  Cool right?
+There a few things to notice. First, I changed the myCircle function and created three different functions. These functions return a random x, y, and diameter, respectively.  Then, I create a for loop to create the circle parameters and then print out the circles in the draw method using a for loop as well.  This time the circles don't move around but instead change color.  Cool right?
 
