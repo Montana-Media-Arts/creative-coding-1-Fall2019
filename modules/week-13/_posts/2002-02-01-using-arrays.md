@@ -330,7 +330,7 @@ When you run this, remember random circles start appearing everywhere which is c
 
       for(var i = 0; i < myXs.length; i++)
       {
-          fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
+            fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
             circle(myXs[i], myYs[i], myDiameters[i]);
       }
 
@@ -413,4 +413,6 @@ When you run this, remember random circles start appearing everywhere which is c
     }
 
 ```
+
+There a few things to notice. First, I changed the myCircle function and created three different functions. These functions return a random x, y and diameter respectively.  Then, I create a for loop to create the circle parameters and then printed out the circles in the draw method using a for loop as well.  This time the circles don't move around, but rather just change color.  Cool right?
 
